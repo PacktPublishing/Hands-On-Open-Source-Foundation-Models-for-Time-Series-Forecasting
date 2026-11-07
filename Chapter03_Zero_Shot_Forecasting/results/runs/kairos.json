@@ -1,0 +1,101 @@
+{
+ "model": "kairos",
+ "name": "Kairos",
+ "checkpoint": "mldi-lab/Kairos_50m",
+ "load_seconds": 6.8,
+ "parameters": 50128384,
+ "datasets": {
+  "D1": {
+   "covariates_used": false,
+   "joint": false,
+   "known_future": [],
+   "past_only": [],
+   "dropped": [],
+   "status": "ok",
+   "seconds": 2.0,
+   "peak_mem_mb": 223,
+   "context_cap": 2048,
+   "n_forecast_rows": 1005,
+   "nan_forecasts": 0,
+   "skipped": []
+  },
+  "D2": {
+   "covariates_used": false,
+   "joint": false,
+   "known_future": [],
+   "past_only": [],
+   "dropped": [
+    "fourier_sin_1",
+    "fourier_cos_1",
+    "fourier_sin_2",
+    "fourier_cos_2",
+    "daylength_h",
+    "wav_d1_2",
+    "wav_d3_4",
+    "wav_d5_6",
+    "wav_d7_8",
+    "wav_s8",
+    "nao",
+    "ao"
+   ],
+   "status": "same input as D1 (no usable covariates): forecasts reused",
+   "seconds": 0.0
+  },
+  "D3": {
+   "covariates_used": false,
+   "joint": false,
+   "known_future": [],
+   "past_only": [],
+   "dropped": [],
+   "status": "ok",
+   "seconds": 2.2,
+   "peak_mem_mb": 1,
+   "context_cap": 2048,
+   "n_forecast_rows": 570,
+   "nan_forecasts": 0,
+   "skipped": []
+  },
+  "D4": {
+   "covariates_used": false,
+   "joint": false,
+   "known_future": [],
+   "past_only": [],
+   "dropped": [
+    "global_activity",
+    "usd",
+    "real_rate_10y"
+   ],
+   "status": "same input as D3 (no usable covariates): forecasts reused",
+   "seconds": 0.0
+  },
+  "B1": {
+   "covariates_used": false,
+   "joint": false,
+   "known_future": [],
+   "past_only": [],
+   "dropped": [],
+   "status": "ok",
+   "seconds": 1.9,
+   "peak_mem_mb": 213,
+   "context_cap": 2048,
+   "n_forecast_rows": 1005,
+   "nan_forecasts": 0,
+   "skipped": []
+  },
+  "B2": {
+   "covariates_used": false,
+   "joint": false,
+   "known_future": [],
+   "past_only": [],
+   "dropped": [],
+   "status": "ok",
+   "seconds": 6.4,
+   "peak_mem_mb": 84,
+   "context_cap": 2048,
+   "n_forecast_rows": 5025,
+   "nan_forecasts": 0,
+   "skipped": []
+  }
+ },
+ "total_seconds": 12.5
+}

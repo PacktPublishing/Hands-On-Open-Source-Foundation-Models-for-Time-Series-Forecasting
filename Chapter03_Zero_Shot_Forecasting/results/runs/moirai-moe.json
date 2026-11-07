@@ -1,0 +1,124 @@
+{
+ "model": "moirai-moe",
+ "name": "Moirai-MoE",
+ "checkpoint": "Salesforce/moirai-moe-1.0-R-small",
+ "load_seconds": 1.3,
+ "parameters": 117025800,
+ "datasets": {
+  "D1": {
+   "covariates_used": false,
+   "joint": false,
+   "known_future": [],
+   "past_only": [],
+   "dropped": [],
+   "status": "ok",
+   "seconds": 279.0,
+   "peak_mem_mb": 1649,
+   "context_cap": 2048,
+   "n_forecast_rows": 1005,
+   "nan_forecasts": 0,
+   "skipped": []
+  },
+  "D2": {
+   "covariates_used": true,
+   "joint": false,
+   "known_future": [
+    "fourier_sin_1",
+    "fourier_cos_1",
+    "fourier_sin_2",
+    "fourier_cos_2",
+    "daylength_h"
+   ],
+   "past_only": [
+    "wav_d1_2",
+    "wav_d3_4",
+    "wav_d5_6",
+    "wav_d7_8",
+    "wav_s8",
+    "nao",
+    "ao"
+   ],
+   "dropped": [],
+   "notes": [
+    "CPU: 13 variates, context shortened from 2048 to 688 steps (token cap 640)",
+    "CPU: 13 variates, context shortened from 2048 to 720 steps (token cap 640)",
+    "CPU: 13 variates, context shortened from 2048 to 752 steps (token cap 640)",
+    "CPU: 13 variates, context shortened from 2048 to 768 steps (token cap 640)"
+   ],
+   "status": "ok",
+   "seconds": 1519.1,
+   "peak_mem_mb": 2647,
+   "context_cap": 2048,
+   "n_forecast_rows": 1005,
+   "nan_forecasts": 0,
+   "skipped": []
+  },
+  "D3": {
+   "covariates_used": false,
+   "joint": true,
+   "known_future": [],
+   "past_only": [],
+   "dropped": [],
+   "status": "ok",
+   "seconds": 6.4,
+   "peak_mem_mb": 545,
+   "context_cap": 2048,
+   "n_forecast_rows": 570,
+   "nan_forecasts": 0,
+   "skipped": []
+  },
+  "D4": {
+   "covariates_used": true,
+   "joint": true,
+   "known_future": [],
+   "past_only": [
+    "global_activity",
+    "usd",
+    "real_rate_10y"
+   ],
+   "dropped": [],
+   "status": "ok",
+   "seconds": 11.4,
+   "peak_mem_mb": 816,
+   "context_cap": 2048,
+   "n_forecast_rows": 570,
+   "nan_forecasts": 0,
+   "skipped": []
+  },
+  "B1": {
+   "covariates_used": false,
+   "joint": false,
+   "known_future": [],
+   "past_only": [],
+   "dropped": [],
+   "status": "ok",
+   "seconds": 193.6,
+   "peak_mem_mb": 1676,
+   "context_cap": 2048,
+   "n_forecast_rows": 1005,
+   "nan_forecasts": 0,
+   "skipped": []
+  },
+  "B2": {
+   "covariates_used": false,
+   "joint": true,
+   "known_future": [],
+   "past_only": [],
+   "dropped": [],
+   "notes": [
+    "CPU: 5 variates, context shortened from 2048 to 1952 steps (token cap 640)",
+    "CPU: 5 variates, context shortened from 2048 to 1984 steps (token cap 640)",
+    "CPU: 5 variates, context shortened from 2048 to 2016 steps (token cap 640)",
+    "CPU: 5 variates, context shortened from 2048 to 2032 steps (token cap 640)"
+   ],
+   "status": "ok",
+   "seconds": 1458.2,
+   "peak_mem_mb": 2911,
+   "context_cap": 2048,
+   "n_forecast_rows": 5025,
+   "nan_forecasts": 0,
+   "skipped": []
+  }
+ },
+ "total_seconds": 3467.7
+}

@@ -1,0 +1,109 @@
+model,dataset,trial,setting,validation MASE,chosen,seconds
+CatBoost,D1,0,"default: depth=6, learning_rate=0.1",0.723,yes,44.7
+CatBoost,D1,1,"depth=6, learning_rate=0.05",0.7622,,44.1
+DLinear,D1,0,"default: kernel_size=25, lr=0.001",0.771,,5.3
+DLinear,D1,1,"kernel_size=25, lr=0.0003",0.7455,,5.2
+DLinear,D1,2,"kernel_size=25, lr=0.003",0.7832,,5.1
+DLinear,D1,4,"kernel_size=7, lr=0.0003",0.7396,yes,3.9
+DLinear,D1,6,"kernel_size=7, lr=0.001",0.7625,,4.3
+DLinear,D1,7,"kernel_size=61, lr=0.003",0.7911,,6.7
+LightGBM,D1,0,"default: num_leaves=31, learning_rate=0.1",0.823,,20.7
+LightGBM,D1,1,"num_leaves=31, learning_rate=0.05",0.8121,yes,20.6
+LightGBM,D1,2,"num_leaves=31, learning_rate=0.2",0.8847,,18.7
+LightGBM,D1,4,"num_leaves=63, learning_rate=0.05",0.8339,,36.4
+NHiTS,D1,0,"default: layer_widths=512, lr=0.001",0.8039,,11.7
+NHiTS,D1,1,"layer_widths=256, lr=0.0003",0.7391,yes,7.4
+NHiTS,D1,2,"layer_widths=256, lr=0.003",0.7838,,7.4
+NHiTS,D1,4,"layer_widths=128, lr=0.0003",0.7489,,5.7
+NHiTS,D1,5,"layer_widths=256, lr=0.001",0.7628,,7.0
+TFT,D1,0,"default: hidden_size=16, lr=0.001",1.49,,46.9
+TFT,D1,1,"hidden_size=16, lr=0.0003",1.4984,,48.7
+TFT,D1,2,"hidden_size=16, lr=0.003",0.7876,yes,48.6
+TiDE,D1,0,"default: hidden_size=128, lr=0.001",0.8122,yes,7.0
+TiDE,D1,1,"hidden_size=64, lr=0.0003",0.8164,,5.8
+TiDE,D1,2,"hidden_size=64, lr=0.003",0.8721,,6.1
+TiDE,D1,4,"hidden_size=32, lr=0.001",0.821,,5.6
+XGBoost,D1,0,"default: max_depth=6, learning_rate=0.3",0.9389,,41.0
+XGBoost,D1,1,"max_depth=6, learning_rate=0.1",0.8316,yes,43.1
+XGBoost,D1,2,"max_depth=8, learning_rate=0.3",0.9412,,96.5
+CatBoost,D2,0,"default: depth=6, learning_rate=0.1",0.708,,140.7
+CatBoost,D2,1,"depth=6, learning_rate=0.05",0.7048,yes,139.1
+DLinear,D2,0,"default: kernel_size=25, lr=0.001",0.9048,,12.1
+DLinear,D2,1,"kernel_size=25, lr=0.0003",0.8456,,11.1
+DLinear,D2,2,"kernel_size=25, lr=0.003",0.8715,,11.7
+DLinear,D2,4,"kernel_size=7, lr=0.0003",0.7826,yes,11.0
+DLinear,D2,6,"kernel_size=7, lr=0.001",0.8079,,11.2
+DLinear,D2,7,"kernel_size=61, lr=0.003",0.8941,,14.8
+LightGBM,D2,0,"default: num_leaves=31, learning_rate=0.1",0.6875,yes,56.6
+LightGBM,D2,1,"num_leaves=31, learning_rate=0.05",0.6916,,64.0
+LightGBM,D2,2,"num_leaves=31, learning_rate=0.2",0.7235,,55.7
+LightGBM,D2,4,"num_leaves=63, learning_rate=0.1",0.7363,,115.1
+NHiTS,D2,0,"default: layer_widths=512, lr=0.001",0.9272,,23.6
+NHiTS,D2,1,"layer_widths=256, lr=0.0003",0.8424,,14.9
+NHiTS,D2,2,"layer_widths=256, lr=0.003",0.9243,,14.7
+NHiTS,D2,4,"layer_widths=128, lr=0.0003",0.7985,yes,11.6
+NHiTS,D2,6,"layer_widths=128, lr=0.001",0.9695,,11.7
+TFT,D2,0,"default: hidden_size=16, lr=0.001",0.7554,,113.9
+TFT,D2,1,"hidden_size=16, lr=0.0003",0.7717,,115.0
+TFT,D2,2,"hidden_size=16, lr=0.003",0.7325,yes,118.0
+TiDE,D2,0,"default: hidden_size=128, lr=0.001",0.7882,,32.1
+TiDE,D2,1,"hidden_size=64, lr=0.0003",0.7874,,24.0
+TiDE,D2,2,"hidden_size=64, lr=0.003",0.7599,yes,22.9
+TiDE,D2,4,"hidden_size=32, lr=0.003",0.8449,,17.1
+XGBoost,D2,0,"default: max_depth=6, learning_rate=0.3",0.7478,,145.7
+XGBoost,D2,1,"max_depth=6, learning_rate=0.1",0.6955,yes,141.8
+XGBoost,D2,2,"max_depth=8, learning_rate=0.3",0.7386,,291.8
+CatBoost,D3,0,"default: depth=6, learning_rate=0.1",4.6195,,76.1
+CatBoost,D3,1,"depth=6, learning_rate=0.05",4.5296,yes,76.2
+DLinear,D3,0,"default: kernel_size=13, lr=0.001",5.8668,,0.5
+DLinear,D3,1,"kernel_size=7, lr=0.0003",4.7461,yes,0.4
+DLinear,D3,2,"kernel_size=7, lr=0.003",6.1408,,0.5
+DLinear,D3,4,"kernel_size=3, lr=0.0003",4.7777,,0.4
+DLinear,D3,5,"kernel_size=7, lr=0.001",5.882,,0.4
+DLinear,D3,6,"kernel_size=13, lr=0.0003",4.8058,,0.4
+LightGBM,D3,0,"default: num_leaves=31, learning_rate=0.1",4.8774,,10.4
+LightGBM,D3,1,"num_leaves=31, learning_rate=0.05",4.6344,,10.5
+LightGBM,D3,2,"num_leaves=31, learning_rate=0.2",4.4536,yes,10.4
+LightGBM,D3,4,"num_leaves=63, learning_rate=0.2",4.4536,,10.3
+NHiTS,D3,0,"default: layer_widths=512, lr=0.001",5.5576,,1.3
+NHiTS,D3,1,"layer_widths=256, lr=0.0003",6.2726,,0.8
+NHiTS,D3,2,"layer_widths=256, lr=0.003",7.2986,,0.8
+NHiTS,D3,4,"layer_widths=128, lr=0.001",6.0176,,0.7
+NHiTS,D3,5,"layer_widths=512, lr=0.0003",4.8422,yes,1.3
+TFT,D3,0,"default: hidden_size=16, lr=0.001",8.6041,,3.5
+TFT,D3,1,"hidden_size=16, lr=0.0003",42.0806,,3.4
+TFT,D3,2,"hidden_size=16, lr=0.003",4.8498,yes,3.3
+TiDE,D3,0,"default: hidden_size=128, lr=0.001",5.6704,,0.6
+TiDE,D3,1,"hidden_size=64, lr=0.0003",5.4284,,0.6
+TiDE,D3,2,"hidden_size=64, lr=0.003",5.0431,,0.7
+TiDE,D3,4,"hidden_size=32, lr=0.003",4.2504,yes,0.6
+XGBoost,D3,0,"default: max_depth=6, learning_rate=0.3",4.7941,,40.6
+XGBoost,D3,1,"max_depth=6, learning_rate=0.1",4.9447,,92.8
+XGBoost,D3,2,"max_depth=8, learning_rate=0.3",4.5874,yes,49.9
+CatBoost,D4,0,"default: depth=6, learning_rate=0.1",4.2226,yes,90.6
+CatBoost,D4,1,"depth=6, learning_rate=0.05",4.3543,,94.2
+DLinear,D4,0,"default: kernel_size=13, lr=0.001",6.3766,,0.6
+DLinear,D4,1,"kernel_size=7, lr=0.0003",4.633,,0.5
+DLinear,D4,2,"kernel_size=7, lr=0.003",5.8049,,0.5
+DLinear,D4,4,"kernel_size=3, lr=0.0003",4.6716,,0.5
+DLinear,D4,5,"kernel_size=7, lr=0.001",6.9091,,0.5
+DLinear,D4,6,"kernel_size=13, lr=0.0003",4.4819,yes,0.5
+LightGBM,D4,0,"default: num_leaves=31, learning_rate=0.1",4.4081,,11.7
+LightGBM,D4,1,"num_leaves=31, learning_rate=0.05",4.3875,,11.7
+LightGBM,D4,2,"num_leaves=31, learning_rate=0.2",4.1547,yes,12.7
+LightGBM,D4,4,"num_leaves=63, learning_rate=0.2",4.1547,,12.2
+NHiTS,D4,0,"default: layer_widths=512, lr=0.001",4.5783,,1.5
+NHiTS,D4,1,"layer_widths=256, lr=0.0003",4.4707,,1.0
+NHiTS,D4,2,"layer_widths=256, lr=0.003",4.2322,yes,0.9
+NHiTS,D4,4,"layer_widths=128, lr=0.003",4.8995,,0.7
+NHiTS,D4,5,"layer_widths=256, lr=0.001",4.388,,1.0
+TFT,D4,0,"default: hidden_size=16, lr=0.001",5.1362,,4.0
+TFT,D4,1,"hidden_size=16, lr=0.0003",8.577,,4.1
+TFT,D4,2,"hidden_size=16, lr=0.003",4.7152,yes,3.9
+TiDE,D4,0,"default: hidden_size=128, lr=0.001",6.2207,,1.1
+TiDE,D4,1,"hidden_size=64, lr=0.0003",6.1356,,0.7
+TiDE,D4,2,"hidden_size=64, lr=0.003",5.1877,,0.7
+TiDE,D4,4,"hidden_size=32, lr=0.003",5.1072,yes,1.0
+XGBoost,D4,0,"default: max_depth=6, learning_rate=0.3",4.835,,49.0
+XGBoost,D4,1,"max_depth=6, learning_rate=0.1",4.4756,yes,90.8
+XGBoost,D4,2,"max_depth=8, learning_rate=0.3",4.9468,,57.7

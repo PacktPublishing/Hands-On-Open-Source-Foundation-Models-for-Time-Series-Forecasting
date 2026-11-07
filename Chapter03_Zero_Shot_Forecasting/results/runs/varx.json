@@ -1,0 +1,22 @@
+{
+ "model": "varx",
+ "name": "VARX",
+ "family": "statistical",
+ "datasets": {
+  "D4": {
+   "covariates_used": true,
+   "known_future": [],
+   "past_only": [
+    "global_activity",
+    "usd",
+    "real_rate_10y"
+   ],
+   "joint": true,
+   "status": "ok",
+   "seconds": 0.3,
+   "n_forecast_rows": 570,
+   "nan_forecasts": 0
+  }
+ },
+ "total_seconds": 0.3
+}

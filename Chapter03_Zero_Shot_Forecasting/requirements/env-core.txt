@@ -1,0 +1,32 @@
+# env-core (Python 3.12): Notebooks 05a and 05b. Chronos-2, Chronos-Bolt, TimesFM-2.5, TimesFM-3, TiRex, TiRex-2,
+# Timestral, TTM, FlowState, PatchTST-FM, t0 and TabPFN-TS share one environment.
+# Tested on Linux x86-64, CPU only (3 Nov 2026). Full resolved set: requirements/lock/env-core.lock.txt
+# On Colab the notebook's setup cell installs this file but keeps Colab's own torch (with CUDA).
+torch==2.11.0
+chronos-forecasting==2.3.2
+timesfm[torch]==3.0.2
+tirex-ts==1.4.2
+tirex-2==0.3.1
+granite-tsfm==0.3.10
+tfc-t0[torch]==0.6.0
+tabpfn-time-series==1.3.0
+timestral @ git+https://github.com/mistralai/timestral.git@a534bdbd244d64f3d9d743f46c7bf6fc330ed4ff
+transformers==5.20.0
+huggingface-hub==1.33.0
+jax==0.10.2
+scikit-learn==1.7.2
+statsforecast==2.1.1
+utilsforecast==0.2.17
+numpy==2.4.6
+pandas==2.3.3
+scipy==1.17.1
+statsmodels==0.15.0
+pyarrow==25.0.1
+pyyaml==6.0.3
+psutil==7.2.2
+matplotlib==3.11.2
+openpyxl==3.1.5
+ipykernel==7.4.0
+nbclient==0.11.0
+nbformat==5.11.1
+pytest==9.1.1

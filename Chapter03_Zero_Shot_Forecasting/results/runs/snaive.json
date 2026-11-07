@@ -1,0 +1,64 @@
+{
+ "model": "snaive",
+ "name": "Seasonal naive",
+ "family": "statistical",
+ "datasets": {
+  "D1": {
+   "covariates_used": false,
+   "known_future": [],
+   "past_only": [],
+   "joint": false,
+   "status": "ok",
+   "seconds": 0.1,
+   "n_forecast_rows": 1005,
+   "nan_forecasts": 0
+  },
+  "D2": {
+   "covariates_used": false,
+   "known_future": [],
+   "past_only": [],
+   "joint": false,
+   "status": "same input as D1 (no usable covariates): forecasts reused",
+   "seconds": 0.0
+  },
+  "D3": {
+   "covariates_used": false,
+   "known_future": [],
+   "past_only": [],
+   "joint": false,
+   "status": "ok",
+   "seconds": 0.1,
+   "n_forecast_rows": 570,
+   "nan_forecasts": 0
+  },
+  "D4": {
+   "covariates_used": false,
+   "known_future": [],
+   "past_only": [],
+   "joint": false,
+   "status": "same input as D3 (no usable covariates): forecasts reused",
+   "seconds": 0.0
+  },
+  "B1": {
+   "covariates_used": false,
+   "known_future": [],
+   "past_only": [],
+   "joint": false,
+   "status": "ok",
+   "seconds": 0.1,
+   "n_forecast_rows": 1005,
+   "nan_forecasts": 0
+  },
+  "B2": {
+   "covariates_used": false,
+   "known_future": [],
+   "past_only": [],
+   "joint": false,
+   "status": "ok",
+   "seconds": 0.3,
+   "n_forecast_rows": 5025,
+   "nan_forecasts": 0
+  }
+ },
+ "total_seconds": 0.6
+}

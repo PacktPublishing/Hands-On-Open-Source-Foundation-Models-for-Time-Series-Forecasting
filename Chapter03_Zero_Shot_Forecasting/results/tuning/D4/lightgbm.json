@@ -1,0 +1,77 @@
+{
+ "model": "lightgbm",
+ "dataset": "D4",
+ "search": "Optuna TPE (seed 42), trial 0 = defaults",
+ "search_space": {
+  "num_leaves": [
+   15,
+   31,
+   63
+  ],
+  "learning_rate": [
+   0.05,
+   0.1,
+   0.2
+  ]
+ },
+ "defaults": {
+  "num_leaves": 31,
+  "learning_rate": 0.1
+ },
+ "trials": [
+  {
+   "trial": 0,
+   "params": {
+    "num_leaves": 31,
+    "learning_rate": 0.1
+   },
+   "val_MASE": 4.4081,
+   "seconds": 11.7,
+   "device": "cpu"
+  },
+  {
+   "trial": 1,
+   "params": {
+    "num_leaves": 31,
+    "learning_rate": 0.05
+   },
+   "val_MASE": 4.3875,
+   "seconds": 11.7,
+   "device": "cpu"
+  },
+  {
+   "trial": 2,
+   "params": {
+    "num_leaves": 31,
+    "learning_rate": 0.2
+   },
+   "val_MASE": 4.1547,
+   "seconds": 12.7,
+   "device": "cpu"
+  },
+  {
+   "trial": 4,
+   "params": {
+    "num_leaves": 63,
+    "learning_rate": 0.2
+   },
+   "val_MASE": 4.1547,
+   "seconds": 12.2,
+   "device": "cpu"
+  }
+ ],
+ "best": {
+  "num_leaves": 31,
+  "learning_rate": 0.2
+ },
+ "best_val_MASE": 4.1547,
+ "default_val_MASE": 4.4081,
+ "validation": {
+  "windows": 2,
+  "horizon": 24,
+  "first_date": "2019-08-01",
+  "last_date": "2023-07-01",
+  "fitted_from": "1982-01-01",
+  "earliest_test_origin": "2023-07-01"
+ }
+}

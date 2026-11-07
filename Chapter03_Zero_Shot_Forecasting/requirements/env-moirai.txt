@@ -1,0 +1,18 @@
+# env-moirai (Python 3.12): Notebook 06. uni2ts 2.0.0 pins torch<2.5 and numpy 1.26, so it needs its own environment.
+# Tested on Linux x86-64, CPU only (3 Nov 2026). Full resolved set: requirements/lock/env-moirai.lock.txt
+# On Colab, uni2ts's torch<2.5 makes pip replace Colab's torch with 2.4.1 (CUDA 12.1 build); the setup cell then
+# restarts the session once so that Python loads it.
+uni2ts==2.0.0
+torch==2.4.1
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.11.4
+gluonts==0.14.3
+pyarrow==16.1.0
+pyyaml==6.0.3
+psutil==7.2.2
+matplotlib==3.11.2
+pytest==9.2.0
+ipykernel==7.4.0
+nbclient==0.11.0
+nbformat==5.11.1

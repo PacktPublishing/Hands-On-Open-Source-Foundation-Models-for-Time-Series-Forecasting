@@ -1,0 +1,30 @@
+{
+ "checkpoint": "Datadog/Toto-2.0-22m",
+ "config": {
+  "attn_bias": true,
+  "d_ff": 1368,
+  "d_model": 512,
+  "dropout_p": 0.0,
+  "heads_per_group": 1,
+  "layer_group_size": 6,
+  "mlp_bias": false,
+  "norm_eps": 0.0001,
+  "norm_include_weight": false,
+  "num_groups": 8,
+  "num_heads": 8,
+  "num_layers": 6,
+  "num_output_patches": 1,
+  "num_variate_layers_per_group": 1,
+  "patch_size": 32,
+  "per_dim_scale": true,
+  "pre_norm": true,
+  "qk_dim": 64,
+  "qk_norm": false,
+  "qk_norm_include_weight": false,
+  "residual_attn_ratio": 5.136215466577748,
+  "residual_mult": 0.75,
+  "use_xpos": true,
+  "v_dim": 64,
+  "variate_layer_first": false
+ }
+}

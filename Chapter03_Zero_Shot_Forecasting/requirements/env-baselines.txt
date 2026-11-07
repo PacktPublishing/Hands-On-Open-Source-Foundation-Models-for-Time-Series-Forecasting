@@ -1,0 +1,24 @@
+# env-baselines (Python 3.12): Notebook 10. statsmodels, statsforecast and Darts baselines, tuned with Optuna.
+# Tested on Linux x86-64, CPU only (4 Nov 2026). Full resolved set: requirements/lock/env-baselines.lock.txt
+# On Colab the notebook's setup cell installs this file but keeps Colab's own torch (with CUDA).
+torch==2.11.0
+u8darts[torch]==0.41.0
+lightgbm==4.7.0
+xgboost==3.4.1
+catboost==1.2.10
+statsforecast==2.1.1
+optuna==5.0.0
+statsmodels==0.15.0
+numpy==2.5.4
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.7.2
+pyarrow==26.0.0
+pyyaml==6.0.3
+psutil==7.2.2
+matplotlib==3.11.2
+openpyxl==3.1.5
+pytest==9.2.0
+ipykernel==7.4.0
+nbclient==0.11.0
+nbformat==5.11.1

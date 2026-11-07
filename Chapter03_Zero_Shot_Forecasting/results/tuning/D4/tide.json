@@ -1,0 +1,77 @@
+{
+ "model": "tide",
+ "dataset": "D4",
+ "search": "Optuna TPE (seed 42), trial 0 = defaults",
+ "search_space": {
+  "hidden_size": [
+   32,
+   64,
+   128
+  ],
+  "lr": [
+   0.0003,
+   0.001,
+   0.003
+  ]
+ },
+ "defaults": {
+  "hidden_size": 128,
+  "lr": 0.001
+ },
+ "trials": [
+  {
+   "trial": 0,
+   "params": {
+    "hidden_size": 128,
+    "lr": 0.001
+   },
+   "val_MASE": 6.2207,
+   "seconds": 1.1,
+   "device": "cpu"
+  },
+  {
+   "trial": 1,
+   "params": {
+    "hidden_size": 64,
+    "lr": 0.0003
+   },
+   "val_MASE": 6.1356,
+   "seconds": 0.7,
+   "device": "cpu"
+  },
+  {
+   "trial": 2,
+   "params": {
+    "hidden_size": 64,
+    "lr": 0.003
+   },
+   "val_MASE": 5.1877,
+   "seconds": 0.7,
+   "device": "cpu"
+  },
+  {
+   "trial": 4,
+   "params": {
+    "hidden_size": 32,
+    "lr": 0.003
+   },
+   "val_MASE": 5.1072,
+   "seconds": 1.0,
+   "device": "cpu"
+  }
+ ],
+ "best": {
+  "hidden_size": 32,
+  "lr": 0.003
+ },
+ "best_val_MASE": 5.1072,
+ "default_val_MASE": 6.2207,
+ "validation": {
+  "windows": 2,
+  "horizon": 24,
+  "first_date": "2019-08-01",
+  "last_date": "2023-07-01",
+  "fitted_from": "1982-01-01",
+  "earliest_test_origin": "2023-07-01"
+ }
+}

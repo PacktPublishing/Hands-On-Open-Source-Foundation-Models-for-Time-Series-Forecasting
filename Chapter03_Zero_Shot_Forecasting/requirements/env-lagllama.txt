@@ -1,0 +1,22 @@
+# env-lagllama (Python 3.12): Notebook 09b. lag-llama is installed without its dependencies (it pins old
+# versions); its real requirements are pinned here.
+# Tested on Linux x86-64, CPU only (3 Nov 2026). Full resolved set: requirements/lock/env-lagllama.lock.txt
+# On Colab the notebook's setup cell installs this file but keeps Colab's own torch (with CUDA).
+# On torch >= 2.6 the adapter sets TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD=1 to unpickle the checkpoint.
+torch==2.11.0
+gluonts[torch]==0.14.4
+lightning==2.1.4
+pytorch-lightning==2.1.4
+numpy==1.26.4
+pandas==2.1.4
+scipy==1.15.3
+huggingface-hub==2.4.0
+pyarrow==16.1.0
+pyyaml==6.0.3
+psutil==7.2.2
+matplotlib==3.11.2
+pytest==9.2.0
+ipykernel==7.4.0
+nbclient==0.11.0
+nbformat==5.11.1
+# then: pip install --no-deps git+https://github.com/time-series-foundation-models/lag-llama@df7531a

@@ -1,0 +1,128 @@
+{
+ "model": "lightgbm",
+ "name": "LightGBM",
+ "family": "machine learning",
+ "datasets": {
+  "D1": {
+   "covariates_used": false,
+   "known_future": [],
+   "past_only": [],
+   "joint": false,
+   "tuning_seconds": 96.5,
+   "train_seconds": 19.7,
+   "hyperparameters": {
+    "num_leaves": 31,
+    "learning_rate": 0.05
+   },
+   "device": "cpu",
+   "status": "ok",
+   "seconds": 117.5,
+   "n_forecast_rows": 1005,
+   "nan_forecasts": 0
+  },
+  "D2": {
+   "covariates_used": true,
+   "known_future": [
+    "fourier_sin_1",
+    "fourier_cos_1",
+    "fourier_sin_2",
+    "fourier_cos_2",
+    "daylength_h"
+   ],
+   "past_only": [
+    "wav_d1_2",
+    "wav_d3_4",
+    "wav_d5_6",
+    "wav_d7_8",
+    "wav_s8",
+    "nao",
+    "ao"
+   ],
+   "joint": false,
+   "tuning_seconds": 291.5,
+   "train_seconds": 65.2,
+   "hyperparameters": {
+    "num_leaves": 31,
+    "learning_rate": 0.1
+   },
+   "device": "cpu",
+   "status": "ok",
+   "seconds": 358.4,
+   "n_forecast_rows": 1005,
+   "nan_forecasts": 0
+  },
+  "D3": {
+   "covariates_used": false,
+   "known_future": [],
+   "past_only": [],
+   "joint": true,
+   "tuning_seconds": 41.7,
+   "train_seconds": 11.4,
+   "hyperparameters": {
+    "num_leaves": 31,
+    "learning_rate": 0.2
+   },
+   "device": "cpu",
+   "status": "ok",
+   "seconds": 54.3,
+   "n_forecast_rows": 570,
+   "nan_forecasts": 0
+  },
+  "D4": {
+   "covariates_used": true,
+   "known_future": [],
+   "past_only": [
+    "global_activity",
+    "usd",
+    "real_rate_10y"
+   ],
+   "joint": true,
+   "tuning_seconds": 48.3,
+   "train_seconds": 13.8,
+   "hyperparameters": {
+    "num_leaves": 31,
+    "learning_rate": 0.2
+   },
+   "device": "cpu",
+   "status": "ok",
+   "seconds": 63.3,
+   "n_forecast_rows": 570,
+   "nan_forecasts": 0
+  },
+  "B1": {
+   "covariates_used": false,
+   "known_future": [],
+   "past_only": [],
+   "joint": false,
+   "tuning_seconds": 125.4,
+   "train_seconds": 10.8,
+   "hyperparameters": {
+    "num_leaves": 31,
+    "learning_rate": 0.2
+   },
+   "device": "cpu",
+   "status": "ok",
+   "seconds": 138.1,
+   "n_forecast_rows": 1005,
+   "nan_forecasts": 0
+  },
+  "B2": {
+   "covariates_used": false,
+   "known_future": [],
+   "past_only": [],
+   "joint": true,
+   "tuning_seconds": 411.6,
+   "train_seconds": 99.3,
+   "hyperparameters": {
+    "num_leaves": 31,
+    "learning_rate": 0.05
+   },
+   "device": "cpu",
+   "status": "ok",
+   "seconds": 518.0,
+   "n_forecast_rows": 5025,
+   "nan_forecasts": 0
+  }
+ },
+ "total_seconds": 1249.6
+}

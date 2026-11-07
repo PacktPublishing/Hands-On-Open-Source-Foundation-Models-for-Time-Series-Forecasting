@@ -1,0 +1,67 @@
+{
+ "model": "tft",
+ "dataset": "B2",
+ "search": "Optuna TPE (seed 42), trial 0 = defaults",
+ "search_space": {
+  "hidden_size": [
+   8,
+   16,
+   32
+  ],
+  "lr": [
+   0.0003,
+   0.001,
+   0.003
+  ]
+ },
+ "defaults": {
+  "hidden_size": 16,
+  "lr": 0.001
+ },
+ "trials": [
+  {
+   "trial": 0,
+   "params": {
+    "hidden_size": 16,
+    "lr": 0.001
+   },
+   "val_MASE": 21.2542,
+   "seconds": 66.8,
+   "device": "cpu"
+  },
+  {
+   "trial": 1,
+   "params": {
+    "hidden_size": 16,
+    "lr": 0.0003
+   },
+   "val_MASE": 26.7721,
+   "seconds": 62.4,
+   "device": "cpu"
+  },
+  {
+   "trial": 2,
+   "params": {
+    "hidden_size": 16,
+    "lr": 0.003
+   },
+   "val_MASE": 15.8073,
+   "seconds": 66.7,
+   "device": "cpu"
+  }
+ ],
+ "best": {
+  "hidden_size": 16,
+  "lr": 0.003
+ },
+ "best_val_MASE": 15.8073,
+ "default_val_MASE": 21.2542,
+ "validation": {
+  "windows": 2,
+  "horizon": 90,
+  "first_date": "2024-03-25",
+  "last_date": "2024-12-11",
+  "fitted_from": "2008-07-29",
+  "earliest_test_origin": "2024-12-11"
+ }
+}

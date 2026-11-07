@@ -1,0 +1,122 @@
+{
+ "model": "nhits",
+ "name": "NHiTS",
+ "family": "deep learning",
+ "datasets": {
+  "B1": {
+   "covariates_used": false,
+   "known_future": [],
+   "past_only": [],
+   "joint": false,
+   "tuning_seconds": 46.3,
+   "train_seconds": 12.7,
+   "hyperparameters": {
+    "layer_widths": 512,
+    "lr": 0.001
+   },
+   "device": "cpu",
+   "status": "ok",
+   "seconds": 59.5,
+   "n_forecast_rows": 1005,
+   "nan_forecasts": 0
+  },
+  "B2": {
+   "covariates_used": false,
+   "known_future": [],
+   "past_only": [],
+   "joint": true,
+   "tuning_seconds": 64.5,
+   "train_seconds": 11.3,
+   "hyperparameters": {
+    "layer_widths": 128,
+    "lr": 0.001
+   },
+   "device": "cpu",
+   "status": "ok",
+   "seconds": 76.4,
+   "n_forecast_rows": 5025,
+   "nan_forecasts": 0
+  },
+  "D1": {
+   "covariates_used": false,
+   "known_future": [],
+   "past_only": [],
+   "joint": false,
+   "tuning_seconds": 39.3,
+   "train_seconds": 7.6,
+   "hyperparameters": {
+    "layer_widths": 256,
+    "lr": 0.0003
+   },
+   "device": "cpu",
+   "status": "ok",
+   "seconds": 47.4,
+   "n_forecast_rows": 1005,
+   "nan_forecasts": 0
+  },
+  "D2": {
+   "covariates_used": true,
+   "known_future": [],
+   "past_only": [
+    "wav_d1_2",
+    "wav_d3_4",
+    "wav_d5_6",
+    "wav_d7_8",
+    "wav_s8",
+    "nao",
+    "ao"
+   ],
+   "joint": false,
+   "tuning_seconds": 76.5,
+   "train_seconds": 12.6,
+   "hyperparameters": {
+    "layer_widths": 128,
+    "lr": 0.0003
+   },
+   "device": "cpu",
+   "status": "ok",
+   "seconds": 89.6,
+   "n_forecast_rows": 1005,
+   "nan_forecasts": 0
+  },
+  "D3": {
+   "covariates_used": false,
+   "known_future": [],
+   "past_only": [],
+   "joint": true,
+   "tuning_seconds": 4.9,
+   "train_seconds": 1.5,
+   "hyperparameters": {
+    "layer_widths": 512,
+    "lr": 0.0003
+   },
+   "device": "cpu",
+   "status": "ok",
+   "seconds": 6.7,
+   "n_forecast_rows": 570,
+   "nan_forecasts": 0
+  },
+  "D4": {
+   "covariates_used": true,
+   "known_future": [],
+   "past_only": [
+    "global_activity",
+    "usd",
+    "real_rate_10y"
+   ],
+   "joint": true,
+   "tuning_seconds": 5.1,
+   "train_seconds": 1.0,
+   "hyperparameters": {
+    "layer_widths": 256,
+    "lr": 0.003
+   },
+   "device": "cpu",
+   "status": "ok",
+   "seconds": 6.5,
+   "n_forecast_rows": 570,
+   "nan_forecasts": 0
+  }
+ },
+ "total_seconds": 286.1
+}

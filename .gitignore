@@ -1,0 +1,31 @@
+# Applies to every chapter folder. Each chapter also has its own .gitignore for its own outputs.
+
+# Python environments (one per notebook group, created inside a chapter folder)
+.venv*/
+venv/
+env/
+.conda/
+
+# caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# downloads and local rebuilds that the notebooks recreate
+*/data/raw/
+*/data/rebuild/
+
+# secrets and machine files
+.env
+.env.local
+*.token
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

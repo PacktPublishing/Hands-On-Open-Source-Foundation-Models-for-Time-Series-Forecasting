@@ -1,0 +1,39 @@
+{
+ "checkpoint": "ibm-granite/granite-timeseries-flowstate-r1",
+ "config": {
+  "architectures": [
+   "FlowStateModel"
+  ],
+  "batch_first": true,
+  "context_length": 4096,
+  "decoder_dim": 256,
+  "decoder_patch_len": 6,
+  "decoder_type": "legs",
+  "embedding_feature_dim": 512,
+  "encoder_num_hippo_blocks": 8,
+  "encoder_num_layers": 6,
+  "encoder_state_dim": 512,
+  "init_processing": true,
+  "min_context": 4096,
+  "mlp_type": "transformer",
+  "model_type": "flowstate",
+  "out_gating": true,
+  "prediction_length": -1,
+  "prediction_type": "quantile",
+  "quantiles": [
+   0.1,
+   0.2,
+   0.3,
+   0.4,
+   0.5,
+   0.6,
+   0.7,
+   0.8,
+   0.9
+  ],
+  "scale_factor": 1.0,
+  "torch_dtype": "float32",
+  "transformers_version": "4.50.3",
+  "with_missing": true
+ }
+}

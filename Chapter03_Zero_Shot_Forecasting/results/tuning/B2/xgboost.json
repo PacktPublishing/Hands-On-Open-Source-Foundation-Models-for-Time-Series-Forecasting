@@ -1,0 +1,66 @@
+{
+ "model": "xgboost",
+ "dataset": "B2",
+ "search": "Optuna TPE (seed 42), trial 0 = defaults",
+ "search_space": {
+  "max_depth": [
+   3,
+   6,
+   8
+  ],
+  "learning_rate": [
+   0.1,
+   0.3
+  ]
+ },
+ "defaults": {
+  "max_depth": 6,
+  "learning_rate": 0.3
+ },
+ "trials": [
+  {
+   "trial": 0,
+   "params": {
+    "max_depth": 6,
+    "learning_rate": 0.3
+   },
+   "val_MASE": 10.5431,
+   "seconds": 122.1,
+   "device": "cpu"
+  },
+  {
+   "trial": 1,
+   "params": {
+    "max_depth": 6,
+    "learning_rate": 0.1
+   },
+   "val_MASE": 9.7371,
+   "seconds": 104.0,
+   "device": "cpu"
+  },
+  {
+   "trial": 2,
+   "params": {
+    "max_depth": 8,
+    "learning_rate": 0.3
+   },
+   "val_MASE": 10.1656,
+   "seconds": 260.4,
+   "device": "cpu"
+  }
+ ],
+ "best": {
+  "max_depth": 6,
+  "learning_rate": 0.1
+ },
+ "best_val_MASE": 9.7371,
+ "default_val_MASE": 10.5431,
+ "validation": {
+  "windows": 2,
+  "horizon": 90,
+  "first_date": "2024-03-25",
+  "last_date": "2024-12-11",
+  "fitted_from": "2008-07-29",
+  "earliest_test_origin": "2024-12-11"
+ }
+}

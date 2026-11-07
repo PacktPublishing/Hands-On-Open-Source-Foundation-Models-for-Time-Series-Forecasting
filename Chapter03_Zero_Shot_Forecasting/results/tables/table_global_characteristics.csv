@@ -1,0 +1,18 @@
+,Skewness,Kurtosis,Nonlinearity,Seasonality,Stationarity,Long-Range Dependence,Outlier(s) Detected,stationarity,p_kpss_level,p_kpss_trend,p_adf,p_keenan,p_tsay,p_bds,stl_strength_7,stl_strength_365,stl_strength_5,stl_strength_252,stl_strength_12,hurst_Hal,dfa_alpha,p_cusum
+D1:temp,-0.07,-0.61,Non-linear,Seasonal (365),Trend Stationary,0.67,0,level-stationary,0.093,0.062,0.0,0.005,0.008,0.008,0.194,0.799,,,,0.673,1.191,0.0
+D2:nao,-0.17,-0.2,Non-linear,Non-seasonal,Trend Stationary,0.66,0,level-stationary,0.1,0.01,0.0,0.001,0.0,0.0,0.167,0.24,,,,0.66,0.959,0.0
+D2:ao,-0.15,0.83,Non-linear,Non-seasonal,Trend Stationary,0.66,0,level-stationary,0.054,0.1,0.0,0.0,0.0,0.0,0.166,0.196,,,,0.656,0.957,0.0
+D3:copper,0.64,-0.73,Non-linear,Non-seasonal,Non-stationary,0.9,0,difference-stationary (unit root),0.01,0.01,0.961,0.263,0.076,0.0,,,,,0.225,0.901,1.466,0.0
+D3:aluminium,0.74,0.16,Non-linear,Non-seasonal,Non-stationary,0.76,1,inconclusive (tests disagree),0.01,0.038,0.023,0.0,0.0,0.0,,,,,0.153,0.759,1.472,0.002
+D3:nickel,1.48,3.41,Non-linear,Non-seasonal,Non-stationary,0.72,5,difference-stationary (unit root),0.01,0.01,0.074,0.002,0.0,0.0,,,,,0.182,0.717,1.485,0.0
+D3:zinc,0.71,-0.55,Non-linear,Non-seasonal,Non-stationary,0.84,2,difference-stationary (unit root),0.01,0.01,0.196,0.0,0.0,0.0,,,,,0.111,0.837,1.536,0.0
+D3:lead,0.4,-1.3,Non-linear,Non-seasonal,Non-stationary,0.81,3,difference-stationary (unit root),0.01,0.01,0.69,0.0,0.0,0.0,,,,,0.128,0.812,1.449,0.0
+D4:global_activity,0.89,1.47,Non-linear,Seasonal (12),Trend Stationary,0.82,0,level-stationary,0.053,0.01,0.006,0.046,0.0,0.0,,,,,0.355,0.821,1.3,0.0
+D4:usd,0.98,1.15,Linear,Non-seasonal,Non-stationary,1.0,0,difference-stationary (unit root),0.01,0.01,0.221,0.811,0.536,0.462,,,,,0.137,0.999,1.6,0.0
+D4:real_rate_10y,0.73,-0.03,Linear,Non-seasonal,Non-stationary,1.05,0,inconclusive (tests disagree),0.01,0.01,0.046,0.631,0.63,0.163,,,,,0.208,1.052,1.423,0.0
+B1:wti,0.47,-0.93,Non-linear,Non-seasonal,Non-stationary,0.96,1,difference-stationary (unit root),0.01,0.01,0.176,0.253,0.0,0.0,,,0.186,0.157,,0.958,1.464,0.0
+B2:y3m,0.21,-1.1,Non-linear,Seasonal (5),Non-stationary,1.01,0,difference-stationary (unit root),0.01,0.01,0.538,0.455,0.0,0.0,,,0.246,0.135,,1.01,1.644,0.0
+B2:y1,0.22,-1.03,Non-linear,Non-seasonal,Non-stationary,1.0,0,difference-stationary (unit root),0.01,0.01,0.536,0.323,0.0,0.0,,,0.185,0.138,,1.003,1.641,0.0
+B2:y2,0.26,-0.98,Non-linear,Non-seasonal,Non-stationary,1.0,0,difference-stationary (unit root),0.01,0.01,0.492,0.754,0.0,0.0,,,0.177,0.17,,1.0,1.584,0.0
+B2:y5,0.31,-0.87,Non-linear,Non-seasonal,Non-stationary,0.99,0,difference-stationary (unit root),0.01,0.01,0.485,0.88,0.0,0.0,,,0.175,0.178,,0.992,1.518,0.0
+B2:y10,0.36,-0.74,Non-linear,Non-seasonal,Non-stationary,0.99,0,difference-stationary (unit root),0.01,0.01,0.441,0.755,0.001,0.0,,,0.179,0.173,,0.992,1.488,0.0

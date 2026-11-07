@@ -1,0 +1,107 @@
+{
+ "model": "timesfm25",
+ "name": "TimesFM-2.5",
+ "checkpoint": "google/timesfm-2.5-200m-pytorch",
+ "load_seconds": 2.5,
+ "parameters": 231289280,
+ "datasets": {
+  "D1": {
+   "covariates_used": false,
+   "joint": false,
+   "known_future": [],
+   "past_only": [],
+   "dropped": [],
+   "status": "ok",
+   "seconds": 15.8,
+   "peak_mem_mb": 10,
+   "context_cap": 2048,
+   "n_forecast_rows": 1005,
+   "nan_forecasts": 0,
+   "skipped": []
+  },
+  "D2": {
+   "covariates_used": true,
+   "joint": false,
+   "known_future": [
+    "fourier_sin_1",
+    "fourier_cos_1",
+    "fourier_sin_2",
+    "fourier_cos_2",
+    "daylength_h"
+   ],
+   "past_only": [],
+   "dropped": [
+    "wav_d1_2",
+    "wav_d3_4",
+    "wav_d5_6",
+    "wav_d7_8",
+    "wav_s8",
+    "nao",
+    "ao"
+   ],
+   "status": "ok",
+   "seconds": 17.5,
+   "peak_mem_mb": 212,
+   "context_cap": 2048,
+   "n_forecast_rows": 1005,
+   "nan_forecasts": 0,
+   "skipped": []
+  },
+  "D3": {
+   "covariates_used": false,
+   "joint": false,
+   "known_future": [],
+   "past_only": [],
+   "dropped": [],
+   "status": "ok",
+   "seconds": 27.7,
+   "peak_mem_mb": 0,
+   "context_cap": 16384,
+   "n_forecast_rows": 570,
+   "nan_forecasts": 0,
+   "skipped": []
+  },
+  "D4": {
+   "covariates_used": false,
+   "joint": false,
+   "known_future": [],
+   "past_only": [],
+   "dropped": [
+    "global_activity",
+    "usd",
+    "real_rate_10y"
+   ],
+   "status": "same input as D3 (no usable covariates): forecasts reused",
+   "seconds": 0.0
+  },
+  "B1": {
+   "covariates_used": false,
+   "joint": false,
+   "known_future": [],
+   "past_only": [],
+   "dropped": [],
+   "status": "ok",
+   "seconds": 13.9,
+   "peak_mem_mb": 23,
+   "context_cap": 2048,
+   "n_forecast_rows": 1005,
+   "nan_forecasts": 0,
+   "skipped": []
+  },
+  "B2": {
+   "covariates_used": false,
+   "joint": false,
+   "known_future": [],
+   "past_only": [],
+   "dropped": [],
+   "status": "ok",
+   "seconds": 69.0,
+   "peak_mem_mb": 0,
+   "context_cap": 2048,
+   "n_forecast_rows": 5025,
+   "nan_forecasts": 0,
+   "skipped": []
+  }
+ },
+ "total_seconds": 143.9
+}

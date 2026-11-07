@@ -1,0 +1,19 @@
+# env-kairos (Python 3.12): Notebook 09a. Kairos from its GitHub repository (pinned commit).
+# Tested on Linux x86-64, CPU only (3 Nov 2026). Full resolved set: requirements/lock/env-kairos.lock.txt
+# On Colab the notebook's setup cell installs this file but keeps Colab's own torch (with CUDA).
+torch==2.11.0
+transformers==4.57.6
+numpy==2.2.5
+pandas==2.2.3
+einops==0.8.2
+jaxtyping==0.3.11
+huggingface-hub==0.36.2
+scipy==1.18.1
+pyarrow==26.0.0
+pyyaml==6.0.3
+psutil==7.2.2
+matplotlib==3.11.2
+pytest==9.2.0
+ipykernel==7.4.0
+nbclient==0.11.0
+nbformat==5.11.1

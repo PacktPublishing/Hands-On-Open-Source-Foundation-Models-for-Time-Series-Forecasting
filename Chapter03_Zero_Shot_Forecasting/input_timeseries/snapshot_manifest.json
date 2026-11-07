@@ -1,0 +1,300 @@
+{
+  "vintage_cut": "2026-09-30",
+  "built_utc": "2026-11-01T02:34:15+00:00",
+  "downloads": [
+    {
+      "url": "https://www.metoffice.gov.uk/hadobs/hadcet/data/meantemp_daily_totals.txt",
+      "file": "meantemp_daily_totals.txt",
+      "downloaded_utc": "2026-11-01T02:34:04+00:00",
+      "http_status": 200,
+      "bytes": 1768446,
+      "sha256": "a599cc119b696126ba1d75af4f0f07390e4edbc52f79565bebf9419603047707"
+    },
+    {
+      "url": "https://www.metoffice.gov.uk/hadobs/hadcet/data/meantemp_monthly_totals.txt",
+      "file": "meantemp_monthly_totals.txt",
+      "downloaded_utc": "2026-11-01T02:34:05+00:00",
+      "http_status": 200,
+      "bytes": 36713,
+      "sha256": "e19be737e1d7abcc0060fd93d315e5dc893ca99ccdc7188b7b60149f1addf7f1"
+    },
+    {
+      "url": "https://ftp.cpc.ncep.noaa.gov/cwlinks/norm.daily.nao.cdas.z500.19500101_current.csv",
+      "file": "cpc_daily_nao.csv",
+      "downloaded_utc": "2026-11-01T02:34:06+00:00",
+      "http_status": 200,
+      "bytes": 829272,
+      "sha256": "9bfcc23e20feaf77f377f5d5e587d50b3c02dfd8028386134d7bd2eeb4076825"
+    },
+    {
+      "url": "https://ftp.cpc.ncep.noaa.gov/cwlinks/norm.daily.ao.cdas.z1000.19500101_current.csv",
+      "file": "cpc_daily_ao.csv",
+      "downloaded_utc": "2026-11-01T02:34:06+00:00",
+      "http_status": 200,
+      "bytes": 827432,
+      "sha256": "ac6da7dcba99383dd796b28007adbbc05a8123178566eda56320788031b5eee8"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PCOPPUSDM",
+      "file": "fred_PCOPPUSDM.csv",
+      "downloaded_utc": "2026-11-01T02:34:07+00:00",
+      "http_status": 200,
+      "bytes": 12136,
+      "sha256": "610ad70849171236939b1a66a48c0bb26d80c9049c65b963f1ffda33f43ca543"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PALUMUSDM",
+      "file": "fred_PALUMUSDM.csv",
+      "downloaded_utc": "2026-11-01T02:34:07+00:00",
+      "http_status": 200,
+      "bytes": 12120,
+      "sha256": "ff464a26d1f859cf2883140e14e9e8c97b1ed0298093b4282dabad10531b0541"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PNICKUSDM",
+      "file": "fred_PNICKUSDM.csv",
+      "downloaded_utc": "2026-11-01T02:34:08+00:00",
+      "http_status": 200,
+      "bytes": 12382,
+      "sha256": "5a850a153817c3e622f75acfd4b0045a8211f6b19d3bc938d506287099062735"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PZINCUSDM",
+      "file": "fred_PZINCUSDM.csv",
+      "downloaded_utc": "2026-11-01T02:34:08+00:00",
+      "http_status": 200,
+      "bytes": 12474,
+      "sha256": "42a82b665ff15c8dfa021e63061081318b83bdf0e5754e8e331a1a1aa7859567"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PLEADUSDM",
+      "file": "fred_PLEADUSDM.csv",
+      "downloaded_utc": "2026-11-01T02:34:09+00:00",
+      "http_status": 200,
+      "bytes": 12370,
+      "sha256": "7823b3525a40dc23d9cab0e2854ddbebc4b12b4caf8fb3d1f7ec6aa162d69a6d"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IGREA",
+      "file": "fred_IGREA.csv",
+      "downloaded_utc": "2026-11-01T02:34:10+00:00",
+      "http_status": 200,
+      "bytes": 16546,
+      "sha256": "57a5f797853c97eb1511932f701d06e9a003734fb269bdaeea5cc6dff45592e3"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NNUSBIS",
+      "file": "fred_NNUSBIS.csv",
+      "downloaded_utc": "2026-11-01T02:34:11+00:00",
+      "http_status": 200,
+      "bytes": 13266,
+      "sha256": "8f9235c77a52791ff79c40fe46987abb9df78a132815ec4b74f7cd9f75d50586"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=REAINTRATREARAT10Y",
+      "file": "fred_REAINTRATREARAT10Y.csv",
+      "downloaded_utc": "2026-11-01T02:34:11+00:00",
+      "http_status": 200,
+      "bytes": 11897,
+      "sha256": "f9cb1293faf34f0bfc850ad24e5281685790a146b74d85c70754ab7b3794f3b2"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILWTICO",
+      "file": "fred_DCOILWTICO.csv",
+      "downloaded_utc": "2026-11-01T02:34:11+00:00",
+      "http_status": 200,
+      "bytes": 176046,
+      "sha256": "d85c38f6f6e9078151ec4232b3c3653e8953bbd3b0506f72375e9912503d8295"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS3MO",
+      "file": "fred_DGS3MO.csv",
+      "downloaded_utc": "2026-11-01T02:34:12+00:00",
+      "http_status": 200,
+      "bytes": 186959,
+      "sha256": "fcb916159ca4bdb520bdd9c6d4b2c121de7cb26271a8e0655e27639bf5ec2a86"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS1",
+      "file": "fred_DGS1.csv",
+      "downloaded_utc": "2026-11-01T02:34:12+00:00",
+      "http_status": 200,
+      "bytes": 268857,
+      "sha256": "387b8bf92c1255f20a66a7d525d5eaafb0150cb6fdafaae6eacf36d55fddd3a7"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2",
+      "file": "fred_DGS2.csv",
+      "downloaded_utc": "2026-11-01T02:34:13+00:00",
+      "http_status": 200,
+      "bytes": 209408,
+      "sha256": "7c02d9334a618fc044877c714853e62becb112439eea0004a332b34a48e0a36b"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS5",
+      "file": "fred_DGS5.csv",
+      "downloaded_utc": "2026-11-01T02:34:13+00:00",
+      "http_status": 200,
+      "bytes": 269061,
+      "sha256": "e69e5053638c5f59594c37a682141221790e5f6521a945d2f29cda5097696a7d"
+    },
+    {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+      "file": "fred_DGS10.csv",
+      "downloaded_utc": "2026-11-01T02:34:14+00:00",
+      "http_status": 200,
+      "bytes": 269235,
+      "sha256": "55e2559ffdb30b8ed921b119935fa6b3893dde3d1ed26ddede33fb59895f0659"
+    },
+    {
+      "url": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
+      "file": "CMO-Historical-Data-Monthly.xlsx",
+      "downloaded_utc": "2026-11-01T02:34:14+00:00",
+      "http_status": 200,
+      "bytes": 586099,
+      "sha256": "ea1c350827878ea3bbe30e3cda16a13fd3bd5b409b8458940dc94a36b5a33154"
+    }
+  ],
+  "datasets": {
+    "D1": {
+      "name": "Central England Temperature, daily mean",
+      "kind": "U",
+      "grain": "daily",
+      "rows": 10000,
+      "columns": [
+        "temp"
+      ],
+      "first": "1999-05-16",
+      "last": "2026-09-30"
+    },
+    "D2": {
+      "name": "Central England Temperature + covariates",
+      "kind": "U+X",
+      "grain": "daily",
+      "rows": 10000,
+      "columns": [
+        "temp",
+        "fourier_sin_1",
+        "fourier_cos_1",
+        "fourier_sin_2",
+        "fourier_cos_2",
+        "daylength_h",
+        "wav_d1_2",
+        "wav_d3_4",
+        "wav_d5_6",
+        "wav_d7_8",
+        "wav_s8",
+        "nao",
+        "ao"
+      ],
+      "first": "1999-05-16",
+      "last": "2026-09-30"
+    },
+    "D3": {
+      "name": "Base-metal prices, monthly",
+      "kind": "MV",
+      "grain": "monthly",
+      "rows": 535,
+      "columns": [
+        "copper",
+        "aluminium",
+        "nickel",
+        "zinc",
+        "lead"
+      ],
+      "first": "1982-01-01",
+      "last": "2026-07-01"
+    },
+    "D4": {
+      "name": "Base metals + global drivers",
+      "kind": "MV+X",
+      "grain": "monthly",
+      "rows": 535,
+      "columns": [
+        "copper",
+        "aluminium",
+        "nickel",
+        "zinc",
+        "lead",
+        "global_activity",
+        "usd",
+        "real_rate_10y"
+      ],
+      "first": "1982-01-01",
+      "last": "2026-07-01"
+    },
+    "B1": {
+      "name": "WTI crude oil, daily spot",
+      "kind": "U",
+      "grain": "trading day",
+      "rows": 9513,
+      "columns": [
+        "wti"
+      ],
+      "first": "1986-01-02",
+      "last": "2026-09-30"
+    },
+    "B2": {
+      "name": "US Treasury yield curve, daily",
+      "kind": "MV",
+      "grain": "trading day",
+      "rows": 10000,
+      "columns": [
+        "y3m",
+        "y1",
+        "y2",
+        "y5",
+        "y10"
+      ],
+      "first": "1986-10-08",
+      "last": "2026-09-30"
+    }
+  },
+  "covariates": {
+    "D2": {
+      "known_future": [
+        "fourier_sin_1",
+        "fourier_cos_1",
+        "fourier_sin_2",
+        "fourier_cos_2",
+        "daylength_h"
+      ],
+      "past_only": [
+        "wav_d1_2",
+        "wav_d3_4",
+        "wav_d5_6",
+        "wav_d7_8",
+        "wav_s8",
+        "nao",
+        "ao"
+      ]
+    },
+    "D4": {
+      "known_future": [],
+      "past_only": [
+        "global_activity",
+        "usd",
+        "real_rate_10y"
+      ]
+    }
+  },
+  "choices": {
+    "d2_filled_days": {
+      "nao": [
+        "2006-10-26",
+        "2007-01-26"
+      ],
+      "ao": [
+        "2003-04-30"
+      ]
+    },
+    "fourier_K": 2,
+    "fourier_aic": {
+      "0": 31328.41530896824,
+      "1": 18661.980687223368,
+      "2": 18430.0705440648,
+      "3": 18430.783107585965
+    }
+  },
+  "fallbacks": {}
+}

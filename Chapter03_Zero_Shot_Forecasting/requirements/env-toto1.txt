@@ -1,0 +1,25 @@
+# env-toto1 (Python 3.12): Notebook 07b. toto-ts 0.2.0 is installed without its dependencies (they conflict with
+# torch 2.11); its real requirements are pinned here. Install: pip install -r requirements/env-toto1.txt && pip install --no-deps toto-ts==0.2.0
+# Tested on Linux x86-64, CPU only (3 Nov 2026). Full resolved set: requirements/lock/env-toto1.lock.txt
+# On Colab the notebook's setup cell installs this file but keeps Colab's own torch (with CUDA).
+# huggingface-hub must stay below 1.0: with hub 1.x, Toto.from_pretrained raises a TypeError (proxies, resume_download).
+torch==2.11.0
+gluonts[torch]==0.16.2
+rotary-embedding-torch==0.8.6
+jaxtyping==0.2.29
+beartype==0.18.5
+einops==0.7.0
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.15.3
+huggingface-hub==0.30.2
+safetensors==0.8.0
+pyarrow==16.1.0
+pyyaml==6.0.3
+psutil==7.2.2
+matplotlib==3.11.2
+pytest==9.2.0
+ipykernel==7.4.0
+nbclient==0.11.0
+nbformat==5.11.1
+# then: pip install --no-deps toto-ts==0.2.0

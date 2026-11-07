@@ -1,0 +1,17 @@
+# downloads and local rebuilds (Notebook 00 recreates them)
+data/raw/
+data/rebuild/
+
+# environments and caches
+.venv*/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.DS_Store
+
+# quick-check outputs (FULL_RUN = False writes them on every run)
+results/forecasts_smoke/
+results/runs_smoke/
+results/runs/.*.lock
+results/runs_smoke/.*.lock

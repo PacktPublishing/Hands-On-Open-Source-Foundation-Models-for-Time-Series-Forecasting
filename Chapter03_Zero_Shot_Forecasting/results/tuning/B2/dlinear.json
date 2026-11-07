@@ -1,0 +1,97 @@
+{
+ "model": "dlinear",
+ "dataset": "B2",
+ "search": "Optuna TPE (seed 42), trial 0 = defaults",
+ "search_space": {
+  "kernel_size": [
+   7,
+   25,
+   61
+  ],
+  "lr": [
+   0.0003,
+   0.001,
+   0.003
+  ]
+ },
+ "defaults": {
+  "kernel_size": 25,
+  "lr": 0.001
+ },
+ "trials": [
+  {
+   "trial": 0,
+   "params": {
+    "kernel_size": 25,
+    "lr": 0.001
+   },
+   "val_MASE": 17.1253,
+   "seconds": 13.3,
+   "device": "cpu"
+  },
+  {
+   "trial": 1,
+   "params": {
+    "kernel_size": 25,
+    "lr": 0.0003
+   },
+   "val_MASE": 13.8551,
+   "seconds": 13.0,
+   "device": "cpu"
+  },
+  {
+   "trial": 2,
+   "params": {
+    "kernel_size": 25,
+    "lr": 0.003
+   },
+   "val_MASE": 31.2573,
+   "seconds": 12.6,
+   "device": "cpu"
+  },
+  {
+   "trial": 4,
+   "params": {
+    "kernel_size": 7,
+    "lr": 0.0003
+   },
+   "val_MASE": 13.5798,
+   "seconds": 12.1,
+   "device": "cpu"
+  },
+  {
+   "trial": 6,
+   "params": {
+    "kernel_size": 7,
+    "lr": 0.001
+   },
+   "val_MASE": 16.6676,
+   "seconds": 12.5,
+   "device": "cpu"
+  },
+  {
+   "trial": 7,
+   "params": {
+    "kernel_size": 61,
+    "lr": 0.003
+   },
+   "val_MASE": 30.4436,
+   "seconds": 14.7,
+   "device": "cpu"
+  }
+ ],
+ "best": {
+  "kernel_size": 7,
+  "lr": 0.0003
+ },
+ "best_val_MASE": 13.5798,
+ "default_val_MASE": 17.1253,
+ "validation": {
+  "windows": 2,
+  "horizon": 90,
+  "first_date": "2024-03-25",
+  "last_date": "2024-12-11",
+  "fitted_from": "2008-07-29",
+  "earliest_test_origin": "2024-12-11"
+ }
+}

@@ -1,0 +1,127 @@
+dataset,grain,horizon,window,primary,origin_date,context_start,context_end,test_start,test_end,n_context,n_test,models_weights_after_test_start,n_models_flagged
+D1,daily,7,1,True,2026-09-23,1999-05-16,2026-09-23,2026-09-24,2026-09-30,9993,7,"t0, timestral, timestral-5m, tirex2",4
+D1,daily,7,2,False,2026-09-16,1999-05-16,2026-09-16,2026-09-17,2026-09-23,9986,7,"t0, timestral, timestral-5m, tirex2",4
+D1,daily,7,3,False,2026-09-09,1999-05-16,2026-09-09,2026-09-10,2026-09-16,9979,7,"t0, timestral, timestral-5m, tirex2",4
+D1,daily,7,4,False,2026-09-02,1999-05-16,2026-09-02,2026-09-03,2026-09-09,9972,7,"t0, timestral, timestral-5m, tirex2",4
+D1,daily,7,5,False,2026-08-26,1999-05-16,2026-08-26,2026-08-27,2026-09-02,9965,7,"patchtst-fm, t0, timestral, timestral-5m, tirex2",5
+D1,daily,14,1,True,2026-09-16,1999-05-16,2026-09-16,2026-09-17,2026-09-30,9986,14,"t0, timestral, timestral-5m, tirex2",4
+D1,daily,14,2,False,2026-09-02,1999-05-16,2026-09-02,2026-09-03,2026-09-16,9972,14,"t0, timestral, timestral-5m, tirex2",4
+D1,daily,14,3,False,2026-08-19,1999-05-16,2026-08-19,2026-08-20,2026-09-02,9958,14,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D1,daily,14,4,False,2026-08-05,1999-05-16,2026-08-05,2026-08-06,2026-08-19,9944,14,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D1,daily,14,5,False,2026-07-22,1999-05-16,2026-07-22,2026-07-23,2026-08-05,9930,14,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D1,daily,30,1,True,2026-08-31,1999-05-16,2026-08-31,2026-09-01,2026-09-30,9970,30,"t0, timestral, timestral-5m, tirex2",4
+D1,daily,30,2,False,2026-08-01,1999-05-16,2026-08-01,2026-08-02,2026-08-31,9940,30,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D1,daily,30,3,False,2026-07-02,1999-05-16,2026-07-02,2026-07-03,2026-08-01,9910,30,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D1,daily,30,4,False,2026-06-02,1999-05-16,2026-06-02,2026-06-03,2026-07-02,9880,30,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D1,daily,30,5,False,2026-05-03,1999-05-16,2026-05-03,2026-05-04,2026-06-02,9850,30,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D1,daily,60,1,True,2026-08-01,1999-05-16,2026-08-01,2026-08-02,2026-09-30,9940,60,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D1,daily,60,2,False,2026-06-02,1999-05-16,2026-06-02,2026-06-03,2026-08-01,9880,60,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D1,daily,60,3,False,2026-04-03,1999-05-16,2026-04-03,2026-04-04,2026-06-02,9820,60,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+D1,daily,60,4,False,2026-02-02,1999-05-16,2026-02-02,2026-02-03,2026-04-03,9760,60,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+D1,daily,60,5,False,2025-12-04,1999-05-16,2025-12-04,2025-12-05,2026-02-02,9700,60,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+D1,daily,90,1,True,2026-07-02,1999-05-16,2026-07-02,2026-07-03,2026-09-30,9910,90,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D1,daily,90,2,False,2026-04-03,1999-05-16,2026-04-03,2026-04-04,2026-07-02,9820,90,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+D1,daily,90,3,False,2026-01-03,1999-05-16,2026-01-03,2026-01-04,2026-04-03,9730,90,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+D1,daily,90,4,False,2025-10-05,1999-05-16,2025-10-05,2025-10-06,2026-01-03,9640,90,"chronos2, chronos2-small, flowstate, patchtst-fm, t0, tabpfn-ts, tempopfn, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",13
+D1,daily,90,5,False,2025-07-07,1999-05-16,2025-07-07,2025-07-08,2025-10-05,9550,90,"chronos2, chronos2-small, flowstate, kairos, moirai2, patchtst-fm, t0, tabpfn-ts, tempopfn, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex2, toto2",16
+D2,daily,7,1,True,2026-09-23,1999-05-16,2026-09-23,2026-09-24,2026-09-30,9993,7,"t0, timestral, timestral-5m, tirex2",4
+D2,daily,7,2,False,2026-09-16,1999-05-16,2026-09-16,2026-09-17,2026-09-23,9986,7,"t0, timestral, timestral-5m, tirex2",4
+D2,daily,7,3,False,2026-09-09,1999-05-16,2026-09-09,2026-09-10,2026-09-16,9979,7,"t0, timestral, timestral-5m, tirex2",4
+D2,daily,7,4,False,2026-09-02,1999-05-16,2026-09-02,2026-09-03,2026-09-09,9972,7,"t0, timestral, timestral-5m, tirex2",4
+D2,daily,7,5,False,2026-08-26,1999-05-16,2026-08-26,2026-08-27,2026-09-02,9965,7,"patchtst-fm, t0, timestral, timestral-5m, tirex2",5
+D2,daily,14,1,True,2026-09-16,1999-05-16,2026-09-16,2026-09-17,2026-09-30,9986,14,"t0, timestral, timestral-5m, tirex2",4
+D2,daily,14,2,False,2026-09-02,1999-05-16,2026-09-02,2026-09-03,2026-09-16,9972,14,"t0, timestral, timestral-5m, tirex2",4
+D2,daily,14,3,False,2026-08-19,1999-05-16,2026-08-19,2026-08-20,2026-09-02,9958,14,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D2,daily,14,4,False,2026-08-05,1999-05-16,2026-08-05,2026-08-06,2026-08-19,9944,14,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D2,daily,14,5,False,2026-07-22,1999-05-16,2026-07-22,2026-07-23,2026-08-05,9930,14,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D2,daily,30,1,True,2026-08-31,1999-05-16,2026-08-31,2026-09-01,2026-09-30,9970,30,"t0, timestral, timestral-5m, tirex2",4
+D2,daily,30,2,False,2026-08-01,1999-05-16,2026-08-01,2026-08-02,2026-08-31,9940,30,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D2,daily,30,3,False,2026-07-02,1999-05-16,2026-07-02,2026-07-03,2026-08-01,9910,30,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D2,daily,30,4,False,2026-06-02,1999-05-16,2026-06-02,2026-06-03,2026-07-02,9880,30,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D2,daily,30,5,False,2026-05-03,1999-05-16,2026-05-03,2026-05-04,2026-06-02,9850,30,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D2,daily,60,1,True,2026-08-01,1999-05-16,2026-08-01,2026-08-02,2026-09-30,9940,60,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D2,daily,60,2,False,2026-06-02,1999-05-16,2026-06-02,2026-06-03,2026-08-01,9880,60,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D2,daily,60,3,False,2026-04-03,1999-05-16,2026-04-03,2026-04-04,2026-06-02,9820,60,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+D2,daily,60,4,False,2026-02-02,1999-05-16,2026-02-02,2026-02-03,2026-04-03,9760,60,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+D2,daily,60,5,False,2025-12-04,1999-05-16,2025-12-04,2025-12-05,2026-02-02,9700,60,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+D2,daily,90,1,True,2026-07-02,1999-05-16,2026-07-02,2026-07-03,2026-09-30,9910,90,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D2,daily,90,2,False,2026-04-03,1999-05-16,2026-04-03,2026-04-04,2026-07-02,9820,90,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+D2,daily,90,3,False,2026-01-03,1999-05-16,2026-01-03,2026-01-04,2026-04-03,9730,90,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+D2,daily,90,4,False,2025-10-05,1999-05-16,2025-10-05,2025-10-06,2026-01-03,9640,90,"chronos2, chronos2-small, flowstate, patchtst-fm, t0, tabpfn-ts, tempopfn, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",13
+D2,daily,90,5,False,2025-07-07,1999-05-16,2025-07-07,2025-07-08,2025-10-05,9550,90,"chronos2, chronos2-small, flowstate, kairos, moirai2, patchtst-fm, t0, tabpfn-ts, tempopfn, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex2, toto2",16
+D3,monthly,3,1,True,2026-04-01,1982-01-01,2026-04-01,2026-05-01,2026-07-01,532,3,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D3,monthly,3,2,False,2026-01-01,1982-01-01,2026-01-01,2026-02-01,2026-04-01,529,3,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+D3,monthly,3,3,False,2025-10-01,1982-01-01,2025-10-01,2025-11-01,2026-01-01,526,3,"chronos2-small, flowstate, patchtst-fm, t0, tabpfn-ts, tempopfn, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",12
+D3,monthly,6,1,True,2026-01-01,1982-01-01,2026-01-01,2026-02-01,2026-07-01,529,6,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+D3,monthly,6,2,False,2025-07-01,1982-01-01,2025-07-01,2025-08-01,2026-01-01,523,6,"chronos2, chronos2-small, flowstate, kairos, moirai2, patchtst-fm, t0, tabpfn-ts, tempopfn, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex2, toto2",16
+D3,monthly,6,3,False,2025-01-01,1982-01-01,2025-01-01,2025-02-01,2025-07-01,517,6,"chronos2, chronos2-small, flowstate, kairos, moirai2, patchtst-fm, sundial, t0, tabpfn-ts, tempopfn, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex, tirex2, toto1, toto2, yinglong",20
+D3,monthly,9,1,True,2025-10-01,1982-01-01,2025-10-01,2025-11-01,2026-07-01,526,9,"chronos2-small, flowstate, patchtst-fm, t0, tabpfn-ts, tempopfn, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",12
+D3,monthly,9,2,False,2025-01-01,1982-01-01,2025-01-01,2025-02-01,2025-10-01,517,9,"chronos2, chronos2-small, flowstate, kairos, moirai2, patchtst-fm, sundial, t0, tabpfn-ts, tempopfn, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex, tirex2, toto1, toto2, yinglong",20
+D3,monthly,9,3,False,2024-04-01,1982-01-01,2024-04-01,2024-05-01,2025-01-01,508,9,"chronos-bolt, chronos2, chronos2-small, flowstate, kairos, moirai-moe, moirai11, moirai2, moment, patchtst-fm, sundial, t0, tabpfn-ts, tempopfn, timemoe, timer, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex, tirex2, toto1, toto2, ttm, yinglong",27
+D3,monthly,12,1,True,2025-07-01,1982-01-01,2025-07-01,2025-08-01,2026-07-01,523,12,"chronos2, chronos2-small, flowstate, kairos, moirai2, patchtst-fm, t0, tabpfn-ts, tempopfn, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex2, toto2",16
+D3,monthly,12,2,False,2024-07-01,1982-01-01,2024-07-01,2024-08-01,2025-07-01,511,12,"chronos-bolt, chronos2, chronos2-small, flowstate, kairos, moirai-moe, moirai2, moment, patchtst-fm, sundial, t0, tabpfn-ts, tempopfn, timemoe, timer, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex, tirex2, toto1, toto2, ttm, yinglong",26
+D3,monthly,12,3,False,2023-07-01,1982-01-01,2023-07-01,2023-08-01,2024-07-01,499,12,"chronos-bolt, chronos2, chronos2-small, flowstate, kairos, lag-llama, moirai-moe, moirai11, moirai2, moment, patchtst-fm, sundial, t0, tabpfn-ts, tempopfn, timemoe, timer, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex, tirex2, toto1, toto2, ttm, yinglong",28
+D3,monthly,24,1,True,2024-07-01,1982-01-01,2024-07-01,2024-08-01,2026-07-01,511,24,"chronos-bolt, chronos2, chronos2-small, flowstate, kairos, moirai-moe, moirai2, moment, patchtst-fm, sundial, t0, tabpfn-ts, tempopfn, timemoe, timer, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex, tirex2, toto1, toto2, ttm, yinglong",26
+D4,monthly,3,1,True,2026-04-01,1982-01-01,2026-04-01,2026-05-01,2026-07-01,532,3,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+D4,monthly,3,2,False,2026-01-01,1982-01-01,2026-01-01,2026-02-01,2026-04-01,529,3,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+D4,monthly,3,3,False,2025-10-01,1982-01-01,2025-10-01,2025-11-01,2026-01-01,526,3,"chronos2-small, flowstate, patchtst-fm, t0, tabpfn-ts, tempopfn, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",12
+D4,monthly,6,1,True,2026-01-01,1982-01-01,2026-01-01,2026-02-01,2026-07-01,529,6,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+D4,monthly,6,2,False,2025-07-01,1982-01-01,2025-07-01,2025-08-01,2026-01-01,523,6,"chronos2, chronos2-small, flowstate, kairos, moirai2, patchtst-fm, t0, tabpfn-ts, tempopfn, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex2, toto2",16
+D4,monthly,6,3,False,2025-01-01,1982-01-01,2025-01-01,2025-02-01,2025-07-01,517,6,"chronos2, chronos2-small, flowstate, kairos, moirai2, patchtst-fm, sundial, t0, tabpfn-ts, tempopfn, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex, tirex2, toto1, toto2, yinglong",20
+D4,monthly,9,1,True,2025-10-01,1982-01-01,2025-10-01,2025-11-01,2026-07-01,526,9,"chronos2-small, flowstate, patchtst-fm, t0, tabpfn-ts, tempopfn, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",12
+D4,monthly,9,2,False,2025-01-01,1982-01-01,2025-01-01,2025-02-01,2025-10-01,517,9,"chronos2, chronos2-small, flowstate, kairos, moirai2, patchtst-fm, sundial, t0, tabpfn-ts, tempopfn, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex, tirex2, toto1, toto2, yinglong",20
+D4,monthly,9,3,False,2024-04-01,1982-01-01,2024-04-01,2024-05-01,2025-01-01,508,9,"chronos-bolt, chronos2, chronos2-small, flowstate, kairos, moirai-moe, moirai11, moirai2, moment, patchtst-fm, sundial, t0, tabpfn-ts, tempopfn, timemoe, timer, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex, tirex2, toto1, toto2, ttm, yinglong",27
+D4,monthly,12,1,True,2025-07-01,1982-01-01,2025-07-01,2025-08-01,2026-07-01,523,12,"chronos2, chronos2-small, flowstate, kairos, moirai2, patchtst-fm, t0, tabpfn-ts, tempopfn, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex2, toto2",16
+D4,monthly,12,2,False,2024-07-01,1982-01-01,2024-07-01,2024-08-01,2025-07-01,511,12,"chronos-bolt, chronos2, chronos2-small, flowstate, kairos, moirai-moe, moirai2, moment, patchtst-fm, sundial, t0, tabpfn-ts, tempopfn, timemoe, timer, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex, tirex2, toto1, toto2, ttm, yinglong",26
+D4,monthly,12,3,False,2023-07-01,1982-01-01,2023-07-01,2023-08-01,2024-07-01,499,12,"chronos-bolt, chronos2, chronos2-small, flowstate, kairos, lag-llama, moirai-moe, moirai11, moirai2, moment, patchtst-fm, sundial, t0, tabpfn-ts, tempopfn, timemoe, timer, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex, tirex2, toto1, toto2, ttm, yinglong",28
+D4,monthly,24,1,True,2024-07-01,1982-01-01,2024-07-01,2024-08-01,2026-07-01,511,24,"chronos-bolt, chronos2, chronos2-small, flowstate, kairos, moirai-moe, moirai2, moment, patchtst-fm, sundial, t0, tabpfn-ts, tempopfn, timemoe, timer, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex, tirex2, toto1, toto2, ttm, yinglong",26
+B1,daily,7,1,True,2026-09-21,1986-01-02,2026-09-21,2026-09-22,2026-09-30,9506,7,"t0, timestral, timestral-5m, tirex2",4
+B1,daily,7,2,False,2026-09-10,1986-01-02,2026-09-10,2026-09-11,2026-09-21,9499,7,"t0, timestral, timestral-5m, tirex2",4
+B1,daily,7,3,False,2026-08-31,1986-01-02,2026-08-31,2026-09-01,2026-09-10,9492,7,"t0, timestral, timestral-5m, tirex2",4
+B1,daily,7,4,False,2026-08-20,1986-01-02,2026-08-20,2026-08-21,2026-08-31,9485,7,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B1,daily,7,5,False,2026-08-11,1986-01-02,2026-08-11,2026-08-12,2026-08-20,9478,7,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B1,daily,14,1,True,2026-09-10,1986-01-02,2026-09-10,2026-09-11,2026-09-30,9499,14,"t0, timestral, timestral-5m, tirex2",4
+B1,daily,14,2,False,2026-08-20,1986-01-02,2026-08-20,2026-08-21,2026-09-10,9485,14,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B1,daily,14,3,False,2026-07-31,1986-01-02,2026-07-31,2026-08-03,2026-08-20,9471,14,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B1,daily,14,4,False,2026-07-13,1986-01-02,2026-07-13,2026-07-14,2026-07-31,9457,14,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B1,daily,14,5,False,2026-06-22,1986-01-02,2026-06-22,2026-06-23,2026-07-13,9443,14,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B1,daily,30,1,True,2026-08-18,1986-01-02,2026-08-18,2026-08-19,2026-09-30,9483,30,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B1,daily,30,2,False,2026-07-07,1986-01-02,2026-07-07,2026-07-08,2026-08-18,9453,30,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B1,daily,30,3,False,2026-05-21,1986-01-02,2026-05-21,2026-05-22,2026-07-07,9423,30,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B1,daily,30,4,False,2026-04-09,1986-01-02,2026-04-09,2026-04-10,2026-05-21,9393,30,"flowstate, patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2, toto2",8
+B1,daily,30,5,False,2026-02-25,1986-01-02,2026-02-25,2026-02-26,2026-04-09,9363,30,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+B1,daily,60,1,True,2026-07-07,1986-01-02,2026-07-07,2026-07-08,2026-09-30,9453,60,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B1,daily,60,2,False,2026-04-09,1986-01-02,2026-04-09,2026-04-10,2026-07-07,9393,60,"flowstate, patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2, toto2",8
+B1,daily,60,3,False,2026-01-12,1986-01-02,2026-01-12,2026-01-13,2026-04-09,9333,60,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+B1,daily,60,4,False,2025-10-14,1986-01-02,2025-10-14,2025-10-15,2026-01-12,9273,60,"chronos2, chronos2-small, flowstate, patchtst-fm, t0, tabpfn-ts, tempopfn, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",13
+B1,daily,60,5,False,2025-07-18,1986-01-02,2025-07-18,2025-07-21,2025-10-14,9213,60,"chronos2, chronos2-small, flowstate, kairos, moirai2, patchtst-fm, t0, tabpfn-ts, tempopfn, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex2, toto2",16
+B1,daily,90,1,True,2026-05-21,1986-01-02,2026-05-21,2026-05-22,2026-09-30,9423,90,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B1,daily,90,2,False,2026-01-12,1986-01-02,2026-01-12,2026-01-13,2026-05-21,9333,90,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+B1,daily,90,3,False,2025-08-29,1986-01-02,2025-08-29,2025-09-02,2026-01-12,9243,90,"chronos2, chronos2-small, flowstate, kairos, patchtst-fm, t0, tabpfn-ts, tempopfn, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex2, toto2",15
+B1,daily,90,4,False,2025-04-22,1986-01-02,2025-04-22,2025-04-23,2025-08-29,9153,90,"chronos2, chronos2-small, flowstate, kairos, moirai2, patchtst-fm, sundial, t0, tabpfn-ts, tempopfn, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex, tirex2, toto1, toto2, yinglong",20
+B1,daily,90,5,False,2024-12-09,1986-01-02,2024-12-09,2024-12-10,2025-04-22,9063,90,"chronos2, chronos2-small, flowstate, kairos, moirai2, patchtst-fm, sundial, t0, tabpfn-ts, tempopfn, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex, tirex2, toto1, toto2, yinglong",20
+B2,daily,7,1,True,2026-09-21,1986-10-08,2026-09-21,2026-09-22,2026-09-30,9993,7,"t0, timestral, timestral-5m, tirex2",4
+B2,daily,7,2,False,2026-09-10,1986-10-08,2026-09-10,2026-09-11,2026-09-21,9986,7,"t0, timestral, timestral-5m, tirex2",4
+B2,daily,7,3,False,2026-08-31,1986-10-08,2026-08-31,2026-09-01,2026-09-10,9979,7,"t0, timestral, timestral-5m, tirex2",4
+B2,daily,7,4,False,2026-08-20,1986-10-08,2026-08-20,2026-08-21,2026-08-31,9972,7,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B2,daily,7,5,False,2026-08-11,1986-10-08,2026-08-11,2026-08-12,2026-08-20,9965,7,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B2,daily,14,1,True,2026-09-10,1986-10-08,2026-09-10,2026-09-11,2026-09-30,9986,14,"t0, timestral, timestral-5m, tirex2",4
+B2,daily,14,2,False,2026-08-20,1986-10-08,2026-08-20,2026-08-21,2026-09-10,9972,14,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B2,daily,14,3,False,2026-07-31,1986-10-08,2026-07-31,2026-08-03,2026-08-20,9958,14,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B2,daily,14,4,False,2026-07-13,1986-10-08,2026-07-13,2026-07-14,2026-07-31,9944,14,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B2,daily,14,5,False,2026-06-22,1986-10-08,2026-06-22,2026-06-23,2026-07-13,9930,14,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B2,daily,30,1,True,2026-08-18,1986-10-08,2026-08-18,2026-08-19,2026-09-30,9970,30,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B2,daily,30,2,False,2026-07-07,1986-10-08,2026-07-07,2026-07-08,2026-08-18,9940,30,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B2,daily,30,3,False,2026-05-21,1986-10-08,2026-05-21,2026-05-22,2026-07-07,9910,30,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B2,daily,30,4,False,2026-04-09,1986-10-08,2026-04-09,2026-04-10,2026-05-21,9880,30,"flowstate, patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2, toto2",8
+B2,daily,30,5,False,2026-02-26,1986-10-08,2026-02-26,2026-02-27,2026-04-09,9850,30,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+B2,daily,60,1,True,2026-07-07,1986-10-08,2026-07-07,2026-07-08,2026-09-30,9940,60,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B2,daily,60,2,False,2026-04-09,1986-10-08,2026-04-09,2026-04-10,2026-07-07,9880,60,"flowstate, patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2, toto2",8
+B2,daily,60,3,False,2026-01-13,1986-10-08,2026-01-13,2026-01-14,2026-04-09,9820,60,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+B2,daily,60,4,False,2025-10-15,1986-10-08,2025-10-15,2025-10-16,2026-01-13,9760,60,"chronos2, chronos2-small, flowstate, patchtst-fm, t0, tabpfn-ts, tempopfn, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",13
+B2,daily,60,5,False,2025-07-21,1986-10-08,2025-07-21,2025-07-22,2025-10-15,9700,60,"chronos2, chronos2-small, flowstate, kairos, moirai2, patchtst-fm, t0, tabpfn-ts, tempopfn, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex2, toto2",16
+B2,daily,90,1,True,2026-05-21,1986-10-08,2026-05-21,2026-05-22,2026-09-30,9910,90,"patchtst-fm, t0, timesfm3, timestral, timestral-5m, tirex2",6
+B2,daily,90,2,False,2026-01-13,1986-10-08,2026-01-13,2026-01-14,2026-05-21,9820,90,"flowstate, patchtst-fm, t0, timer-s1, timesfm3, timestral, timestral-5m, tirex2, toto2",9
+B2,daily,90,3,False,2025-09-02,1986-10-08,2025-09-02,2025-09-03,2026-01-13,9730,90,"chronos2, chronos2-small, flowstate, kairos, patchtst-fm, t0, tabpfn-ts, tempopfn, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex2, toto2",15
+B2,daily,90,4,False,2025-04-23,1986-10-08,2025-04-23,2025-04-24,2025-09-02,9640,90,"chronos2, chronos2-small, flowstate, kairos, moirai2, patchtst-fm, sundial, t0, tabpfn-ts, tempopfn, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex, tirex2, toto1, toto2, yinglong",20
+B2,daily,90,5,False,2024-12-11,1986-10-08,2024-12-11,2024-12-12,2025-04-23,9550,90,"chronos2, chronos2-small, flowstate, kairos, moirai2, patchtst-fm, sundial, t0, tabpfn-ts, tempopfn, timer-s1, timesfm25, timesfm3, timestral, timestral-5m, tirex, tirex2, toto1, toto2, yinglong",20

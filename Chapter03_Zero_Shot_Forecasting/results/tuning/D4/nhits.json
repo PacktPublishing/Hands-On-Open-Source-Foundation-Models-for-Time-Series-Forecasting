@@ -1,0 +1,87 @@
+{
+ "model": "nhits",
+ "dataset": "D4",
+ "search": "Optuna TPE (seed 42), trial 0 = defaults",
+ "search_space": {
+  "layer_widths": [
+   128,
+   256,
+   512
+  ],
+  "lr": [
+   0.0003,
+   0.001,
+   0.003
+  ]
+ },
+ "defaults": {
+  "layer_widths": 512,
+  "lr": 0.001
+ },
+ "trials": [
+  {
+   "trial": 0,
+   "params": {
+    "layer_widths": 512,
+    "lr": 0.001
+   },
+   "val_MASE": 4.5783,
+   "seconds": 1.5,
+   "device": "cpu"
+  },
+  {
+   "trial": 1,
+   "params": {
+    "layer_widths": 256,
+    "lr": 0.0003
+   },
+   "val_MASE": 4.4707,
+   "seconds": 1.0,
+   "device": "cpu"
+  },
+  {
+   "trial": 2,
+   "params": {
+    "layer_widths": 256,
+    "lr": 0.003
+   },
+   "val_MASE": 4.2322,
+   "seconds": 0.9,
+   "device": "cpu"
+  },
+  {
+   "trial": 4,
+   "params": {
+    "layer_widths": 128,
+    "lr": 0.003
+   },
+   "val_MASE": 4.8995,
+   "seconds": 0.7,
+   "device": "cpu"
+  },
+  {
+   "trial": 5,
+   "params": {
+    "layer_widths": 256,
+    "lr": 0.001
+   },
+   "val_MASE": 4.388,
+   "seconds": 1.0,
+   "device": "cpu"
+  }
+ ],
+ "best": {
+  "layer_widths": 256,
+  "lr": 0.003
+ },
+ "best_val_MASE": 4.2322,
+ "default_val_MASE": 4.5783,
+ "validation": {
+  "windows": 2,
+  "horizon": 24,
+  "first_date": "2019-08-01",
+  "last_date": "2023-07-01",
+  "fitted_from": "1982-01-01",
+  "earliest_test_origin": "2023-07-01"
+ }
+}
