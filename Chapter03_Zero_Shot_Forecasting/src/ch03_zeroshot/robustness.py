@@ -4,7 +4,8 @@ MCB (Koning, Franses, Hibon and Stekler, 2005): rank the M models on each of N f
 average the ranks, and draw an interval of half-width CD/2 around each mean rank, with
 CD = q_alpha * sqrt(M (M + 1) / (6 N)) and q_alpha the studentised range quantile divided by sqrt(2)
 (the Nemenyi critical difference; Demsar, 2006). A model whose interval does not overlap the best
-model's interval is significantly worse than the best.
+model's interval is significantly worse than the best. A Friedman test on the same ranks comes first:
+it asks whether the models rank alike at all.
 
 Murphy diagrams (Ehm, Gneiting, Jordan and Krueger, 2016): every consistent scoring function for a
 mean or a median is a mixture of 'elementary' scores S_theta. Plotting the average elementary score
@@ -31,6 +32,16 @@ def mcb(scores, metric="MASE", task=("dataset", "series", "horizon", "window"), 
     out["worse_than_best"] = out["lower"] > best["upper"]
     out.attrs.update(cd=cd, n_tasks=n, n_models=m, alpha=alpha, metric=metric)
     return out
+
+
+def friedman(scores, metric="MASE", task=("dataset", "series", "horizon", "window")):
+    """Friedman test that all models rank alike over the tasks; run it before MCB on the same scores."""
+    from scipy.stats import friedmanchisquare
+
+    wide = scores.pivot_table(index=list(task), columns="model", values=metric).dropna()
+    res = friedmanchisquare(*(wide[c].to_numpy() for c in wide.columns))
+    return {"chi2": float(res.statistic), "df": wide.shape[1] - 1, "p": float(res.pvalue),
+            "n_tasks": len(wide), "n_models": wide.shape[1]}
 
 
 def plot_mcb(res, ax=None, names=None, title=None):

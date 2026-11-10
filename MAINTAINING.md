@@ -26,7 +26,7 @@ how to publish to [PacktPublishing/Hands-On-Open-Source-Foundation-Models-for-Ti
    outputs, downloads). The `.gitignore` at the root already ignores environments, caches, `.DS_Store`, `.env` files
    and every chapter's `data/raw/` and `data/rebuild/`.
 4. Add a row for the chapter to the table in the root [README.md](README.md).
-5. Keep every file under 50 MB (GitHub warns at 50 MB and refuses 100 MB). Chapter 3 is about 130 MB in 653 files;
+5. Keep every file under 50 MB (GitHub warns at 50 MB and refuses 100 MB). Chapter 3 is about 130 MB in 661 files;
    its largest file is a 7 MB notebook. If a later chapter is much heavier, move bulky stored results to a GitHub
    release and download them in the notebook.
 6. Never commit tokens or passwords. Notebooks that need a key read it from an environment variable.

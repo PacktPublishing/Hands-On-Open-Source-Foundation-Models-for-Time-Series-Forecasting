@@ -1,7 +1,7 @@
 # Copyright (c) 2026 Shovon Sengupta and Tanujit Chakraborty.
 # Companion code for "Hands-On Open-Source Foundation Models for Time Series
 # Forecasting" (Packt). Licensed under the MIT License.
-"""The unified zero-shot forecaster interface (Chapter 3, Listing 3.4).
+"""The unified zero-shot forecaster interface, described in Chapter 3.
 
 Every model adapter turns one library's native API into the same contract:
 

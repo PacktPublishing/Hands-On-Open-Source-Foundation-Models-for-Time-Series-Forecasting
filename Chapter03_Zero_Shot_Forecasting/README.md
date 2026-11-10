@@ -231,6 +231,31 @@ are in `data/splits/`.
 snapshot to `data/rebuild/input_timeseries/` and compares it with the frozen one, so the book's numbers stay
 reproducible. Set `OVERWRITE_SNAPSHOT = True` in its first code cell only if you want to replace the book's snapshot.
 
+## Code listings from the chapter
+
+The listings written for the chapter text are in `chapter_listings/`, with the same code as the book. Run them from
+this folder in the environment given below; each prints the output shown in the chapter. The other listings in the
+chapter are excerpts of `src/`, and their captions name the file.
+
+| Listing | File | What it does | Environment | Run time on a CPU |
+|---|---|---|---|---|
+| 3.1 | [`first_zero_shot_forecast.py`](chapter_listings/first_zero_shot_forecast.py) | Chronos-Bolt (small) forecasts the next 30 days of D1 from its last 2,048 days, with the 10%, 50% and 90% quantiles (downloads 191 MB of weights the first time) | `env-core` | about 10 s |
+| 3.2 | [`causal_attention.py`](chapter_listings/causal_attention.py) | one causal attention head with `nn.MultiheadAttention`, checked against the attention equation | `env-core` | about 1 s |
+| 3.3 | [`pinball_loss.py`](chapter_listings/pinball_loss.py) | the pinball (quantile) loss on a two-step example | `env-core` | about 1 s |
+| 3.4 | [`timestral_covariates.py`](chapter_listings/timestral_covariates.py) | Timestral-5M forecasts the last 30 days of D2 with its past-only and known-future covariates | `env-core` | about 20 s |
+| 3.5 | [`moirai_moe_metals.py`](chapter_listings/moirai_moe_metals.py) | Moirai-MoE (small) forecasts the last six months of the five metal prices of D3 jointly, as 100 sample paths | `env-moirai` | about 1.5 min |
+
+```bash
+.venv-core/bin/python chapter_listings/first_zero_shot_forecast.py
+.venv-core/bin/python chapter_listings/causal_attention.py
+.venv-core/bin/python chapter_listings/pinball_loss.py
+.venv-core/bin/python chapter_listings/timestral_covariates.py
+.venv-moirai/bin/python chapter_listings/moirai_moe_metals.py
+```
+
+The chapter's figure of covariate gains (`results/figures/fig_ch03_covariate_gains.pdf` and `.png`) is drawn from the
+stored scores by `.venv-dataprep/bin/python scripts/make_covariate_figure.py`.
+
 ## Tests
 
 ```bash
@@ -254,6 +279,7 @@ that the covariate table matches each model adapter; and that every notebook's c
 11_evaluation.ipynb         metrics, paper-style tables, horizons, covariates, scorecard
 12_robustness_mcb_murphy.ipynb   MCB tests and Murphy diagrams
 bonus/                      the same notebooks (05a to 12) for B1 and B2
+chapter_listings/           the code listings written for the chapter text (Listings 3.1 to 3.5)
 src/ch03_dataprep/          shared code of Notebooks 00 to 04
 src/ch03_zeroshot/          shared code of Notebooks 05a to 12: model adapters (models/), runner, data plans,
                             baselines, metrics, tables, robustness, architecture figures (architectures, diagrams)
@@ -268,8 +294,9 @@ results/figures/            figures, including architectures/ (PNG, plus a vecto
 requirements/               one pinned file per environment (lock/ has the full resolved lists)
 requirements-dataprep.txt   environment of Notebooks 00 to 04, 11 and 12
 requirements-colab.txt      the packages Colab lacks for Notebooks 00 to 04
-scripts/                    command-line runners (run_zero_shot.py, run_baselines.py), calibrate_wca_null.py and
-                            set_repo_path.py (see MAINTAINING.md at the repository root)
+scripts/                    command-line runners (run_zero_shot.py, run_baselines.py), calibrate_wca_null.py,
+                            make_covariate_figure.py (a figure of the chapter) and set_repo_path.py
+                            (see MAINTAINING.md at the repository root)
 tests/                      pytest checks
 ```
 
