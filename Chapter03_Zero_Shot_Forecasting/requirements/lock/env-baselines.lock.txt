@@ -25,7 +25,7 @@ filelock==4.2.7
 fonttools==4.68.0
 formulaic==1.2.2
 frozenlist==1.8.0
-fsspec==2026.9.0
+fsspec==2026.6.0
 fugue==0.9.7
 graphviz==0.21
 h11==0.16.0
