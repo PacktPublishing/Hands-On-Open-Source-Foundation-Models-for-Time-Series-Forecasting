@@ -23,7 +23,7 @@
    ],
    "joint": false,
    "status": "ok",
-   "seconds": 230.3,
+   "seconds": 350.2,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0
   },
@@ -37,10 +37,10 @@
    ],
    "joint": false,
    "status": "ok",
-   "seconds": 150.9,
+   "seconds": 253.4,
    "n_forecast_rows": 570,
    "nan_forecasts": 0
   }
  },
- "total_seconds": 381.2
+ "total_seconds": 603.6
 }

@@ -26,7 +26,7 @@
     "lr": 0.001
    },
    "val_MASE": 0.9048,
-   "seconds": 12.1,
+   "seconds": 9.1,
    "device": "cpu"
   },
   {
@@ -36,7 +36,7 @@
     "lr": 0.0003
    },
    "val_MASE": 0.8456,
-   "seconds": 11.1,
+   "seconds": 7.6,
    "device": "cpu"
   },
   {
@@ -46,7 +46,7 @@
     "lr": 0.003
    },
    "val_MASE": 0.8715,
-   "seconds": 11.7,
+   "seconds": 9.6,
    "device": "cpu"
   },
   {
@@ -56,7 +56,7 @@
     "lr": 0.0003
    },
    "val_MASE": 0.7826,
-   "seconds": 11.0,
+   "seconds": 7.7,
    "device": "cpu"
   },
   {
@@ -66,7 +66,7 @@
     "lr": 0.001
    },
    "val_MASE": 0.8079,
-   "seconds": 11.2,
+   "seconds": 7.0,
    "device": "cpu"
   },
   {
@@ -76,7 +76,7 @@
     "lr": 0.003
    },
    "val_MASE": 0.8941,
-   "seconds": 14.8,
+   "seconds": 10.9,
    "device": "cpu"
   }
  ],

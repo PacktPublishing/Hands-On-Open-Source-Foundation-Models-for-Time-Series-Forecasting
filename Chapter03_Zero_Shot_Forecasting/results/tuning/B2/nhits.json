@@ -25,8 +25,8 @@
     "layer_widths": 512,
     "lr": 0.001
    },
-   "val_MASE": 12.8065,
-   "seconds": 19.6,
+   "val_MASE": 14.4694,
+   "seconds": 12.1,
    "device": "cpu"
   },
   {
@@ -35,8 +35,8 @@
     "layer_widths": 256,
     "lr": 0.0003
    },
-   "val_MASE": 24.1714,
-   "seconds": 13.0,
+   "val_MASE": 24.3066,
+   "seconds": 8.1,
    "device": "cpu"
   },
   {
@@ -45,8 +45,8 @@
     "layer_widths": 256,
     "lr": 0.003
    },
-   "val_MASE": 12.5542,
-   "seconds": 12.6,
+   "val_MASE": 11.3265,
+   "seconds": 7.1,
    "device": "cpu"
   },
   {
@@ -55,8 +55,8 @@
     "layer_widths": 128,
     "lr": 0.003
    },
-   "val_MASE": 8.6896,
-   "seconds": 9.4,
+   "val_MASE": 8.8153,
+   "seconds": 5.4,
    "device": "cpu"
   },
   {
@@ -65,8 +65,8 @@
     "layer_widths": 128,
     "lr": 0.001
    },
-   "val_MASE": 7.9801,
-   "seconds": 10.0,
+   "val_MASE": 7.6919,
+   "seconds": 6.6,
    "device": "cpu"
   }
  ],
@@ -74,8 +74,8 @@
   "layer_widths": 128,
   "lr": 0.001
  },
- "best_val_MASE": 7.9801,
- "default_val_MASE": 12.8065,
+ "best_val_MASE": 7.6919,
+ "default_val_MASE": 14.4694,
  "validation": {
   "windows": 2,
   "horizon": 90,

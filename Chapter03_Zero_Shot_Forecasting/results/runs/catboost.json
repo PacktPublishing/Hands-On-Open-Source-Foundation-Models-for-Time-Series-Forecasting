@@ -8,15 +8,15 @@
    "known_future": [],
    "past_only": [],
    "joint": false,
-   "tuning_seconds": 31.9,
-   "train_seconds": 16.9,
+   "tuning_seconds": 34.1,
+   "train_seconds": 16.1,
    "hyperparameters": {
     "depth": 6,
     "learning_rate": 0.1
    },
    "device": "cpu",
    "status": "ok",
-   "seconds": 48.9,
+   "seconds": 50.3,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0
   },
@@ -25,15 +25,15 @@
    "known_future": [],
    "past_only": [],
    "joint": true,
-   "tuning_seconds": 283.0,
-   "train_seconds": 148.4,
+   "tuning_seconds": 288.7,
+   "train_seconds": 149.6,
    "hyperparameters": {
     "depth": 6,
     "learning_rate": 0.1
    },
    "device": "cpu",
    "status": "ok",
-   "seconds": 431.5,
+   "seconds": 438.4,
    "n_forecast_rows": 5025,
    "nan_forecasts": 0
   },
@@ -42,15 +42,15 @@
    "known_future": [],
    "past_only": [],
    "joint": false,
-   "tuning_seconds": 88.8,
-   "train_seconds": 46.9,
+   "tuning_seconds": 93.0,
+   "train_seconds": 47.0,
    "hyperparameters": {
     "depth": 6,
     "learning_rate": 0.1
    },
    "device": "cpu",
    "status": "ok",
-   "seconds": 135.8,
+   "seconds": 140.1,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0
   },
@@ -73,15 +73,15 @@
     "ao"
    ],
    "joint": false,
-   "tuning_seconds": 279.8,
-   "train_seconds": 134.6,
+   "tuning_seconds": 276.7,
+   "train_seconds": 147.4,
    "hyperparameters": {
     "depth": 6,
     "learning_rate": 0.05
    },
    "device": "cpu",
    "status": "ok",
-   "seconds": 414.6,
+   "seconds": 424.3,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0
   },
@@ -90,15 +90,15 @@
    "known_future": [],
    "past_only": [],
    "joint": true,
-   "tuning_seconds": 152.3,
-   "train_seconds": 75.5,
+   "tuning_seconds": 140.1,
+   "train_seconds": 69.7,
    "hyperparameters": {
     "depth": 6,
     "learning_rate": 0.05
    },
    "device": "cpu",
    "status": "ok",
-   "seconds": 227.9,
+   "seconds": 209.8,
    "n_forecast_rows": 570,
    "nan_forecasts": 0
   },
@@ -111,8 +111,8 @@
     "real_rate_10y"
    ],
    "joint": true,
-   "tuning_seconds": 184.8,
-   "train_seconds": 93.2,
+   "tuning_seconds": 186.1,
+   "train_seconds": 92.0,
    "hyperparameters": {
     "depth": 6,
     "learning_rate": 0.1
@@ -124,5 +124,5 @@
    "nan_forecasts": 0
   }
  },
- "total_seconds": 1536.8
+ "total_seconds": 1541.0
 }

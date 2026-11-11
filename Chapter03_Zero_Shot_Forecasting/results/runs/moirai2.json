@@ -2,7 +2,7 @@
  "model": "moirai2",
  "name": "Moirai-2.0",
  "checkpoint": "Salesforce/moirai-2.0-R-small",
- "load_seconds": 0.7,
+ "load_seconds": 0.5,
  "parameters": 11387208,
  "datasets": {
   "D1": {
@@ -12,8 +12,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 1.1,
-   "peak_mem_mb": 1,
+   "seconds": 1.9,
+   "peak_mem_mb": 0,
    "context_cap": 1680,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -48,7 +48,7 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 0.4,
+   "seconds": 0.5,
    "peak_mem_mb": 0,
    "context_cap": 1680,
    "n_forecast_rows": 570,
@@ -75,8 +75,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 1.3,
-   "peak_mem_mb": 0,
+   "seconds": 1.5,
+   "peak_mem_mb": 1,
    "context_cap": 1680,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -89,13 +89,13 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 7.9,
-   "peak_mem_mb": 326,
+   "seconds": 11.5,
+   "peak_mem_mb": 455,
    "context_cap": 1680,
    "n_forecast_rows": 5025,
    "nan_forecasts": 0,
    "skipped": []
   }
  },
- "total_seconds": 10.7
+ "total_seconds": 15.4
 }

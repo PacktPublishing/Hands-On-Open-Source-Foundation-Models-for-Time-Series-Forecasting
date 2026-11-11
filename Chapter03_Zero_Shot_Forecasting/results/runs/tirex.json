@@ -2,7 +2,7 @@
  "model": "tirex",
  "name": "TiRex",
  "checkpoint": "NX-AI/TiRex",
- "load_seconds": 0.8,
+ "load_seconds": 0.6,
  "parameters": 35291200,
  "datasets": {
   "D1": {
@@ -12,7 +12,7 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 5.4,
+   "seconds": 5.6,
    "peak_mem_mb": 4,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
@@ -48,7 +48,7 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 5.9,
+   "seconds": 6.5,
    "peak_mem_mb": 0,
    "context_cap": null,
    "n_forecast_rows": 570,
@@ -75,8 +75,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 5.0,
-   "peak_mem_mb": 5,
+   "seconds": 5.9,
+   "peak_mem_mb": 4,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -89,7 +89,7 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 15.6,
+   "seconds": 22.2,
    "peak_mem_mb": 0,
    "context_cap": 2048,
    "n_forecast_rows": 5025,
@@ -97,5 +97,5 @@
    "skipped": []
   }
  },
- "total_seconds": 31.9
+ "total_seconds": 40.2
 }

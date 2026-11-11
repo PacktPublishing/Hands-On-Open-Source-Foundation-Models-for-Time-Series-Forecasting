@@ -2,7 +2,7 @@
  "model": "timemoe",
  "name": "Time-MoE",
  "checkpoint": "Maple728/TimeMoE-50M",
- "load_seconds": 5.5,
+ "load_seconds": 0.5,
  "parameters": 113352192,
  "datasets": {
   "D1": {
@@ -12,8 +12,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 246.5,
-   "peak_mem_mb": 2802,
+   "seconds": 183.6,
+   "peak_mem_mb": 2748,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -48,8 +48,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 36.2,
-   "peak_mem_mb": 289,
+   "seconds": 49.3,
+   "peak_mem_mb": 324,
    "context_cap": 4096,
    "n_forecast_rows": 570,
    "nan_forecasts": 0,
@@ -75,8 +75,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 201.2,
-   "peak_mem_mb": 2783,
+   "seconds": 175.3,
+   "peak_mem_mb": 2776,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -89,13 +89,13 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 970.7,
-   "peak_mem_mb": 2100,
+   "seconds": 913.4,
+   "peak_mem_mb": 2690,
    "context_cap": 2048,
    "n_forecast_rows": 5025,
    "nan_forecasts": 0,
    "skipped": []
   }
  },
- "total_seconds": 1454.6
+ "total_seconds": 1321.6
 }

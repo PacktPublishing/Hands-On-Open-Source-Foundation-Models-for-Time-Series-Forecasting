@@ -8,15 +8,15 @@
    "known_future": [],
    "past_only": [],
    "joint": false,
-   "tuning_seconds": 38.1,
-   "train_seconds": 6.9,
+   "tuning_seconds": 23.9,
+   "train_seconds": 5.4,
    "hyperparameters": {
     "kernel_size": 61,
     "lr": 0.0003
    },
    "device": "cpu",
    "status": "ok",
-   "seconds": 45.5,
+   "seconds": 29.5,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0
   },
@@ -25,15 +25,15 @@
    "known_future": [],
    "past_only": [],
    "joint": true,
-   "tuning_seconds": 78.1,
-   "train_seconds": 13.0,
+   "tuning_seconds": 64.3,
+   "train_seconds": 9.8,
    "hyperparameters": {
     "kernel_size": 7,
     "lr": 0.0003
    },
    "device": "cpu",
    "status": "ok",
-   "seconds": 91.7,
+   "seconds": 74.4,
    "n_forecast_rows": 5025,
    "nan_forecasts": 0
   },
@@ -42,15 +42,15 @@
    "known_future": [],
    "past_only": [],
    "joint": false,
-   "tuning_seconds": 30.5,
-   "train_seconds": 4.7,
+   "tuning_seconds": 18.6,
+   "train_seconds": 3.0,
    "hyperparameters": {
     "kernel_size": 7,
     "lr": 0.0003
    },
    "device": "cpu",
    "status": "ok",
-   "seconds": 35.6,
+   "seconds": 21.8,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0
   },
@@ -73,15 +73,15 @@
     "ao"
    ],
    "joint": false,
-   "tuning_seconds": 71.8,
-   "train_seconds": 10.7,
+   "tuning_seconds": 51.9,
+   "train_seconds": 6.3,
    "hyperparameters": {
     "kernel_size": 7,
     "lr": 0.0003
    },
    "device": "cpu",
    "status": "ok",
-   "seconds": 83.0,
+   "seconds": 58.4,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0
   },
@@ -90,15 +90,15 @@
    "known_future": [],
    "past_only": [],
    "joint": true,
-   "tuning_seconds": 2.6,
-   "train_seconds": 0.4,
+   "tuning_seconds": 1.4,
+   "train_seconds": 0.2,
    "hyperparameters": {
     "kernel_size": 7,
     "lr": 0.0003
    },
    "device": "cpu",
    "status": "ok",
-   "seconds": 3.2,
+   "seconds": 1.7,
    "n_forecast_rows": 570,
    "nan_forecasts": 0
   },
@@ -111,18 +111,18 @@
     "real_rate_10y"
    ],
    "joint": true,
-   "tuning_seconds": 3.0,
-   "train_seconds": 0.5,
+   "tuning_seconds": 1.5,
+   "train_seconds": 0.3,
    "hyperparameters": {
     "kernel_size": 13,
     "lr": 0.0003
    },
    "device": "cpu",
    "status": "ok",
-   "seconds": 3.8,
+   "seconds": 1.9,
    "n_forecast_rows": 570,
    "nan_forecasts": 0
   }
  },
- "total_seconds": 262.8
+ "total_seconds": 187.7
 }

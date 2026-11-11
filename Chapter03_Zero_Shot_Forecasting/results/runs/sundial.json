@@ -2,7 +2,7 @@
  "model": "sundial",
  "name": "Sundial",
  "checkpoint": "thuml/sundial-base-128m",
- "load_seconds": 3.3,
+ "load_seconds": 1.5,
  "parameters": 128329680,
  "datasets": {
   "D1": {
@@ -12,8 +12,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 8.6,
-   "peak_mem_mb": 153,
+   "seconds": 11.3,
+   "peak_mem_mb": 142,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -48,8 +48,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 13.5,
-   "peak_mem_mb": 4,
+   "seconds": 17.7,
+   "peak_mem_mb": 0,
    "context_cap": 2880,
    "n_forecast_rows": 570,
    "nan_forecasts": 0,
@@ -75,8 +75,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 10.6,
-   "peak_mem_mb": 153,
+   "seconds": 11.1,
+   "peak_mem_mb": 152,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -89,13 +89,13 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 30.8,
-   "peak_mem_mb": 600,
+   "seconds": 49.1,
+   "peak_mem_mb": 617,
    "context_cap": 2048,
    "n_forecast_rows": 5025,
    "nan_forecasts": 0,
    "skipped": []
   }
  },
- "total_seconds": 63.5
+ "total_seconds": 89.2
 }

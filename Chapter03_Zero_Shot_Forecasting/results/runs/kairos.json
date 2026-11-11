@@ -2,7 +2,7 @@
  "model": "kairos",
  "name": "Kairos",
  "checkpoint": "mldi-lab/Kairos_50m",
- "load_seconds": 6.8,
+ "load_seconds": 1.9,
  "parameters": 50128384,
  "datasets": {
   "D1": {
@@ -12,8 +12,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 2.0,
-   "peak_mem_mb": 223,
+   "seconds": 1.9,
+   "peak_mem_mb": 88,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -48,7 +48,7 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 2.2,
+   "seconds": 2.6,
    "peak_mem_mb": 1,
    "context_cap": 2048,
    "n_forecast_rows": 570,
@@ -75,8 +75,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 1.9,
-   "peak_mem_mb": 213,
+   "seconds": 1.7,
+   "peak_mem_mb": 88,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -89,7 +89,7 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 6.4,
+   "seconds": 7.7,
    "peak_mem_mb": 84,
    "context_cap": 2048,
    "n_forecast_rows": 5025,
@@ -97,5 +97,5 @@
    "skipped": []
   }
  },
- "total_seconds": 12.5
+ "total_seconds": 13.9
 }

@@ -2,7 +2,7 @@
  "model": "tabpfn-ts",
  "name": "TabPFN-TS",
  "checkpoint": "Prior-Labs/TabPFN-v2-reg",
- "load_seconds": 4.8,
+ "load_seconds": 0.9,
  "parameters": null,
  "datasets": {
   "D1": {
@@ -12,8 +12,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 1528.6,
-   "peak_mem_mb": 16,
+   "seconds": 1534.7,
+   "peak_mem_mb": 6,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -40,8 +40,8 @@
     "ao"
    ],
    "status": "ok",
-   "seconds": 1687.1,
-   "peak_mem_mb": 14,
+   "seconds": 1542.9,
+   "peak_mem_mb": 1,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -54,8 +54,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 775.8,
-   "peak_mem_mb": 7,
+   "seconds": 503.8,
+   "peak_mem_mb": 10,
    "context_cap": 4096,
    "n_forecast_rows": 570,
    "nan_forecasts": 0,
@@ -81,8 +81,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 1899.5,
-   "peak_mem_mb": 15,
+   "seconds": 484.1,
+   "peak_mem_mb": 4,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -95,13 +95,13 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 3369.6,
-   "peak_mem_mb": 67,
+   "seconds": 994.8,
+   "peak_mem_mb": 4,
    "context_cap": 2048,
    "n_forecast_rows": 5025,
    "nan_forecasts": 0,
    "skipped": []
   }
  },
- "total_seconds": 9260.6
+ "total_seconds": 5060.3
 }

@@ -12,8 +12,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 48.9,
-   "peak_mem_mb": 676,
+   "seconds": 48.7,
+   "peak_mem_mb": 656,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -48,8 +48,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 65.0,
-   "peak_mem_mb": 172,
+   "seconds": 30.5,
+   "peak_mem_mb": 165,
    "context_cap": 4096,
    "n_forecast_rows": 570,
    "nan_forecasts": 0,
@@ -75,8 +75,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 25.0,
-   "peak_mem_mb": 705,
+   "seconds": 42.1,
+   "peak_mem_mb": 707,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -89,7 +89,7 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 130.7,
+   "seconds": 214.6,
    "peak_mem_mb": 2683,
    "context_cap": 2048,
    "n_forecast_rows": 5025,
@@ -97,5 +97,5 @@
    "skipped": []
   }
  },
- "total_seconds": 269.6
+ "total_seconds": 335.9
 }

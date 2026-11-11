@@ -13,10 +13,10 @@
    ],
    "joint": true,
    "status": "ok",
-   "seconds": 0.3,
+   "seconds": 0.1,
    "n_forecast_rows": 570,
    "nan_forecasts": 0
   }
  },
- "total_seconds": 0.3
+ "total_seconds": 0.1
 }

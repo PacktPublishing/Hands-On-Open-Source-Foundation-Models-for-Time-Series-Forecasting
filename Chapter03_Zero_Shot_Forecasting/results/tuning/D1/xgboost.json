@@ -25,7 +25,7 @@
     "learning_rate": 0.3
    },
    "val_MASE": 0.9389,
-   "seconds": 41.0,
+   "seconds": 38.7,
    "device": "cpu"
   },
   {
@@ -35,7 +35,7 @@
     "learning_rate": 0.1
    },
    "val_MASE": 0.8316,
-   "seconds": 43.1,
+   "seconds": 41.1,
    "device": "cpu"
   },
   {
@@ -45,7 +45,7 @@
     "learning_rate": 0.3
    },
    "val_MASE": 0.9412,
-   "seconds": 96.5,
+   "seconds": 97.3,
    "device": "cpu"
   }
  ],

@@ -55,10 +55,10 @@
    "past_only": [],
    "joint": false,
    "status": "ok",
-   "seconds": 0.2,
+   "seconds": 0.1,
    "n_forecast_rows": 5025,
    "nan_forecasts": 0
   }
  },
- "total_seconds": 0.5
+ "total_seconds": 0.4
 }

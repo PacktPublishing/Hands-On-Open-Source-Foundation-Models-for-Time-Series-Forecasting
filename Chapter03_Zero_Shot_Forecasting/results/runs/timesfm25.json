@@ -12,8 +12,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 15.8,
-   "peak_mem_mb": 10,
+   "seconds": 20.2,
+   "peak_mem_mb": 23,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -40,8 +40,8 @@
     "ao"
    ],
    "status": "ok",
-   "seconds": 17.5,
-   "peak_mem_mb": 212,
+   "seconds": 16.8,
+   "peak_mem_mb": 115,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -54,7 +54,7 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 27.7,
+   "seconds": 29.9,
    "peak_mem_mb": 0,
    "context_cap": 16384,
    "n_forecast_rows": 570,
@@ -81,8 +81,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 13.9,
-   "peak_mem_mb": 23,
+   "seconds": 22.0,
+   "peak_mem_mb": 25,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -95,7 +95,7 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 69.0,
+   "seconds": 103.4,
    "peak_mem_mb": 0,
    "context_cap": 2048,
    "n_forecast_rows": 5025,
@@ -103,5 +103,5 @@
    "skipped": []
   }
  },
- "total_seconds": 143.9
+ "total_seconds": 192.3
 }

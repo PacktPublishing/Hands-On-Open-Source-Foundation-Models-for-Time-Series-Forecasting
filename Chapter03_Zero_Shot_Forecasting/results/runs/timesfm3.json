@@ -2,7 +2,7 @@
  "model": "timesfm3",
  "name": "TimesFM-3",
  "checkpoint": "google/timesfm-3.0-pytorch",
- "load_seconds": 3.8,
+ "load_seconds": 2.3,
  "parameters": 330710976,
  "datasets": {
   "D1": {
@@ -12,7 +12,7 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 7.5,
+   "seconds": 9.7,
    "peak_mem_mb": 29,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
@@ -40,8 +40,8 @@
    ],
    "dropped": [],
    "status": "ok",
-   "seconds": 67.6,
-   "peak_mem_mb": 425,
+   "seconds": 109.0,
+   "peak_mem_mb": 298,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -54,7 +54,7 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 5.4,
+   "seconds": 7.8,
    "peak_mem_mb": 0,
    "context_cap": 15360,
    "n_forecast_rows": 570,
@@ -72,7 +72,7 @@
    ],
    "dropped": [],
    "status": "ok",
-   "seconds": 7.4,
+   "seconds": 12.0,
    "peak_mem_mb": 0,
    "context_cap": 15360,
    "n_forecast_rows": 570,
@@ -86,8 +86,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 6.3,
-   "peak_mem_mb": 28,
+   "seconds": 11.2,
+   "peak_mem_mb": 30,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -100,7 +100,7 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 23.4,
+   "seconds": 52.9,
    "peak_mem_mb": 0,
    "context_cap": 2048,
    "n_forecast_rows": 5025,
@@ -108,5 +108,5 @@
    "skipped": []
   }
  },
- "total_seconds": 117.6
+ "total_seconds": 202.6
 }

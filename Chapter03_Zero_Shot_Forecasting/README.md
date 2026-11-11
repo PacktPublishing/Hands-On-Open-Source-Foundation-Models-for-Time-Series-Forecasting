@@ -26,30 +26,46 @@ forecasts; probabilistic evaluation comes later in the book.
 
 | Notebook | Models | Environment | Quick check (default) | Full run, D1 to D4 | Full run, B1 and B2 |
 |---|---|---|---|---|---|
-| [05a · Chronos, TimesFM and TiRex](05a_zero_shot_chronos_timesfm_tirex.ipynb) | Chronos-2, Chronos-Bolt (small), TimesFM-2.5, TimesFM-3, TiRex, TiRex-2 | `env-core` | 9 min | 5 min | 3 min |
-| [05b · Timestral, IBM's models, t0 and TabPFN-TS](05b_zero_shot_timestral_ibm_t0_tabpfn.ipynb) | Timestral-209M, Timestral-5M, TTM-r2, FlowState-r1.1, PatchTST-FM-r2, t0-gamma, TabPFN-TS (v2 weights) | `env-core` | 16 min | 74 min | 1.6 h |
-| [06 · the Moirai family](06_zero_shot_moirai.ipynb) | Moirai-1.1 (small), Moirai-MoE (small), Moirai-2.0 (small) | `env-moirai` | 3 min | 33 min | 28 min |
-| [07a · Toto-2.0](07a_zero_shot_toto2.ipynb) | Toto-2.0 (22m) | `env-toto2` | 8 s | 2 s | 4 s |
-| [07b · Toto-1.0](07b_zero_shot_toto1.ipynb) | Toto-1.0 | `env-toto1` | 23 s | 9 min | 13 min |
-| [08 · Sundial, Timer and Time-MoE](08_zero_shot_sundial_timer_timemoe.ipynb) | Sundial (base), Timer (base), Time-MoE (50M) | `env-thuml` | 5 min | 5 min | 20 min |
-| [09a · Kairos](09a_zero_shot_kairos.ipynb) | Kairos (50M) | `env-kairos` | 84 s | 4 s | 8 s |
-| [09b · Lag-Llama](09b_zero_shot_lag_llama.ipynb) | Lag-Llama | `env-lagllama` | 89 s | 9 min | 2.0 h |
-| [10 · Baselines](10_baselines.ipynb) | Naive (RW), Seasonal naive, RWD, AR, ARIMA, ARIMAX, ARDL, VAR, VARX; LightGBM, XGBoost, CatBoost, NHiTS, TFT, DLinear, TiDE | `env-baselines` | 10 min | 85 min | 46 min |
+| [05a · Chronos, TimesFM and TiRex](05a_zero_shot_chronos_timesfm_tirex.ipynb) | Chronos-2, Chronos-Bolt (small), TimesFM-2.5, TimesFM-3, TiRex, TiRex-2 | `env-core` | 10 min | 6 min | 6 min |
+| [05b · Timestral, IBM's models, t0 and TabPFN-TS](05b_zero_shot_timestral_ibm_t0_tabpfn.ipynb) | Timestral-209M, Timestral-5M, TTM-r2, FlowState-r1.1, PatchTST-FM-r2, t0-gamma, TabPFN-TS (v2 weights) | `env-core` | 2 min | 72 min | 35 min |
+| [06 · the Moirai family](06_zero_shot_moirai.ipynb) | Moirai-1.1 (small), Moirai-MoE (small), Moirai-2.0 (small) | `env-moirai` | 7.5 s | 42 min | 44 min |
+| [07a · Toto-2.0](07a_zero_shot_toto2.ipynb) | Toto-2.0 (22m) | `env-toto2` | 0.2 s | 1.2 s | 3.8 s |
+| [07b · Toto-1.0](07b_zero_shot_toto1.ipynb) | Toto-1.0 | `env-toto1` | 18 s | 9 min | 7 min |
+| [08 · Sundial, Timer and Time-MoE](08_zero_shot_sundial_timer_timemoe.ipynb) | Sundial (base), Timer (base), Time-MoE (50M) | `env-thuml` | 14 s | 4 min | 19 min |
+| [09a · Kairos](09a_zero_shot_kairos.ipynb) | Kairos (50M) | `env-kairos` | 2.5 s | 4.5 s | 9.4 s |
+| [09b · Lag-Llama](09b_zero_shot_lag_llama.ipynb) | Lag-Llama | `env-lagllama` | 8.8 s | 15 min | 83 min |
+| [10 · Baselines](10_baselines.ipynb) | Naive (RW), Seasonal naive, RWD, AR, ARIMA, ARIMAX, ARDL, VAR, VARX; LightGBM, XGBoost, CatBoost, NHiTS, TFT, DLinear, TiDE | `env-baselines` | 4 min | 84 min | 39 min |
 | [11 · Evaluation](11_evaluation.ipynb) | every stored forecast: 14 metrics, paper-style tables, horizons, covariates, scorecard | `requirements-dataprep.txt` | about 1 min | (reads stored results) | |
 | [12 · Robustness](12_robustness_mcb_murphy.ipynb) | MCB tests and Murphy diagrams for the top models | `requirements-dataprep.txt` | about 1 min | (reads stored results) | |
 
 Bonus notebooks (B1 WTI crude oil, B2 US Treasury yields): [B05a](bonus/B05a_zero_shot_chronos_timesfm_tirex.ipynb), [B05b](bonus/B05b_zero_shot_timestral_ibm_t0_tabpfn.ipynb), [B06](bonus/B06_zero_shot_moirai.ipynb), [B07a](bonus/B07a_zero_shot_toto2.ipynb), [B07b](bonus/B07b_zero_shot_toto1.ipynb), [B08](bonus/B08_zero_shot_sundial_timer_timemoe.ipynb), [B09a](bonus/B09a_zero_shot_kairos.ipynb), [B09b](bonus/B09b_zero_shot_lag_llama.ipynb),
 [B10](bonus/B10_baselines.ipynb), [B11](bonus/B11_evaluation.ipynb), [B12](bonus/B12_robustness_mcb_murphy.ipynb).
 
-Times are forecasting time measured on a 4-core CPU without a GPU, while other runs shared the machine (so they are
-upper bounds); model loading and downloads come on top. Colab's free tier has 2 cores, so expect up to twice as
-long there. **Every forecasting notebook runs a quick check by default** (`FULL_RUN = False`: the fixed-origin window
+Times are forecasting time on a 4-core CPU without a GPU; model loading and downloads come on top. The quick
+checks ran one notebook at a time on all four cores. The full runs used one CPU thread per notebook while up to
+five notebooks shared the machine, so they are upper bounds for a notebook run alone. Colab's free tier has 2 cores,
+so expect the quick checks to take up to twice as long there. **Every forecasting notebook runs a quick check by default** (`FULL_RUN = False`: the fixed-origin window
 at the two shortest horizons of each dataset) and analyses the stored full results in `results/forecasts/`. Set
 `FULL_RUN = True` at the top of a notebook to recompute its full results. No notebook needs a GPU.
 
 **Run order.** Notebooks 05a to 10 are independent of each other: run any of them, in any order, each in its own
 environment. Notebooks 11 and 12 read the stored forecasts of all of them, so they can run straight away; run them
 again after you recompute anything.
+
+**Recomputing the full results.** The stored results come from a full run of every notebook from a fresh clone of
+this repository (11 November 2026, the CPU machine described above). A full rerun reproduces the stored forecasts of
+every model that does not draw samples, up to rounding (the largest gap in our check was 0.12% on one TiRex forecast): Chronos-2, Chronos-Bolt,
+TimesFM, TiRex, Timestral, TTM, FlowState, PatchTST-FM, t0, TabPFN-TS, Moirai-2.0, Toto-2.0, Kairos, Timer, Time-MoE
+and the statistical and tree-based baselines. Models that draw sample paths (Lag-Llama, Toto-1.0, Moirai-1.1,
+Moirai-MoE, Sundial) and the neural baselines trained here (NHiTS, TFT, TiDE) start from a fixed seed but give
+different forecasts on a different machine (on the same machine our reruns of Sundial and Lag-Llama matched). Their scores then
+move, and with them every model's mean rank and close calls such as which models the MCB test cannot tell apart from
+the best. An earlier run on another machine, for example, gave Lag-Llama a mean MASE of 0.909 on D1 (0.935 here), TFT
+0.921 (1.073 here), and 11 models in the pooled MCB group (8 here). The book quotes the stored results, which are what
+the notebooks show by default. Times depend on the machine too. To run
+several notebooks at once, set `CH03_THREADS=1` and `OMP_NUM_THREADS=1` first (multi-threaded libraries slow down
+badly on a shared CPU), and allow about 7 GB of memory for each of Notebooks 05b and B05b (TabPFN-TS forecasts in
+several worker processes).
 
 ## Which models can use covariates zero-shot
 
@@ -102,7 +118,7 @@ forecast ever reads a value from its test window (`covariate_lists` raises an er
 | Several targets | forecast jointly by models that can (D3, D4, B2), one by one otherwise |
 | CPU settings | Toto-1.0 32 samples (library default 256); Sundial 20 samples (model card); TabPFN-TS 2 estimators (default 8); Moirai-MoE shortens D2's context so its 13 variates fit 640 tokens |
 | Per-model inputs | FlowState's time scale is set to one year per cycle (`scale_factor` = 24 / steps per year, the model card's rule); Lag-Llama gets the real dates for its calendar features; TTM left-pads (and masks) monthly contexts shorter than its 512 steps; Time-MoE forecasts at most five series per call (memory) |
-| Randomness | models that sample their forecasts (Toto-1.0, Moirai-1.1, Moirai-MoE, Sundial, Lag-Llama) and the learned baselines start from a fixed seed, but sampled forecasts still change slightly between machines and thread counts, so a rerun can move their scores in the second decimal |
+| Randomness | models that sample their forecasts (Toto-1.0, Moirai-1.1, Moirai-MoE, Sundial, Lag-Llama) and the learned baselines start from a fixed seed; on another machine their forecasts change, which usually moves their scores in the second decimal and sometimes more (see *Recomputing the full results*) |
 | Baselines | statistical models refitted at every origin on the same context, their orders chosen there by AIC or AICc; learned models (all in Darts) tuned by a short Optuna search that starts from the default setting, scored on validation windows at the end of the training data, then trained once on the data before the first test window (GPU when present) |
 
 ## Environments
@@ -173,7 +189,7 @@ environment's Python; it prints which notebooks pass:
   best mean rank over D1 to D4.
 - **Covariates:** reading them zero-shot changes most foundation models' error by less than 3% on average;
   Moirai-1.1 and Moirai-MoE get much worse with D2's twelve covariates. MASE and RMSE agree on the direction of the
-  change in 175 of 190 cases.
+  change in 172 of 190 cases.
 - **Bonus (oil, yields):** near-random-walk series. On oil a few foundation models beat the random walk by under 4%
   (PatchTST-FM best); on yields a tuned CatBoost leads, and Timestral-5M is the only foundation model that beats the
   random walk.
@@ -186,16 +202,16 @@ and averaged, from `results/tables/table_scorecard.csv`:
 
 | Rank | Model | Family | Mean rank, % (MASE) | Mean rank, % (RMSSE) | Best in (cells) | Datasets |
 |---|---|---|---|---|---|---|
-| 1 | PatchTST-FM-r2 | foundation model | 28.2 | 28.1 | 6 of 60 | D1, D2, D3, D4 |
-| 2 | VARX | statistical | 29.3 | 29.9 | 0 of 25 | D4 |
-| 3 | Chronos-Bolt (small) | foundation model | 30.9 | 28.6 | 13 of 60 | D1, D2, D3, D4 |
-| 4 | VAR | statistical | 34.3 | 32.8 | 1 of 25 | D3 |
-| 5 | FlowState-r1.1 | foundation model | 36.4 | 36.5 | 1 of 60 | D1, D2, D3, D4 |
-| 6 | RWD | statistical | 37.4 | 36.4 | 0 of 60 | D1, D2, D3, D4 |
-| 7 | Moirai-2.0 (small) | foundation model | 37.9 | 37.7 | 1 of 60 | D1, D2, D3, D4 |
-| 8 | Naive (RW) | statistical | 39.2 | 37.7 | 1 of 60 | D1, D2, D3, D4 |
-| 9 | CatBoost | machine learning | 39.4 | 38.7 | 3 of 60 | D1, D2, D3, D4 |
-| 10 | TiRex | foundation model | 40.1 | 42.0 | 1 of 60 | D1, D2, D3, D4 |
+| 1 | PatchTST-FM-r2 | foundation model | 27.8 | 28.1 | 6 of 60 | D1, D2, D3, D4 |
+| 2 | VARX | statistical | 29.3 | 29.7 | 0 of 25 | D4 |
+| 3 | Chronos-Bolt (small) | foundation model | 30.7 | 28.8 | 13 of 60 | D1, D2, D3, D4 |
+| 4 | VAR | statistical | 34.1 | 33.0 | 1 of 25 | D3 |
+| 5 | FlowState-r1.1 | foundation model | 36.4 | 36.2 | 1 of 60 | D1, D2, D3, D4 |
+| 6 | RWD | statistical | 37.2 | 36.8 | 0 of 60 | D1, D2, D3, D4 |
+| 7 | Moirai-2.0 (small) | foundation model | 37.7 | 38.1 | 1 of 60 | D1, D2, D3, D4 |
+| 8 | Naive (RW) | statistical | 38.9 | 37.9 | 1 of 60 | D1, D2, D3, D4 |
+| 9 | CatBoost | machine learning | 39.5 | 39.0 | 3 of 60 | D1, D2, D3, D4 |
+| 10 | TiRex | foundation model | 40.2 | 42.0 | 1 of 60 | D1, D2, D3, D4 |
 
 ## Datasets
 

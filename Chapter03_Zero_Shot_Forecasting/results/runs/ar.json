@@ -9,7 +9,7 @@
    "past_only": [],
    "joint": false,
    "status": "ok",
-   "seconds": 39.3,
+   "seconds": 1.7,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0
   },
@@ -27,7 +27,7 @@
    "past_only": [],
    "joint": false,
    "status": "ok",
-   "seconds": 1.7,
+   "seconds": 0.4,
    "n_forecast_rows": 570,
    "nan_forecasts": 0
   },
@@ -45,7 +45,7 @@
    "past_only": [],
    "joint": false,
    "status": "ok",
-   "seconds": 37.3,
+   "seconds": 1.7,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0
   },
@@ -55,10 +55,10 @@
    "past_only": [],
    "joint": false,
    "status": "ok",
-   "seconds": 22.7,
+   "seconds": 5.2,
    "n_forecast_rows": 5025,
    "nan_forecasts": 0
   }
  },
- "total_seconds": 101.0
+ "total_seconds": 9.0
 }

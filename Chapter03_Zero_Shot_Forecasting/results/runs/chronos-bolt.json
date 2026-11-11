@@ -2,7 +2,7 @@
  "model": "chronos-bolt",
  "name": "Chronos-Bolt",
  "checkpoint": "amazon/chronos-bolt-small",
- "load_seconds": 1.0,
+ "load_seconds": 0.5,
  "parameters": 47718016,
  "datasets": {
   "D1": {
@@ -12,8 +12,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 2.9,
-   "peak_mem_mb": 219,
+   "seconds": 3.6,
+   "peak_mem_mb": 214,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -48,7 +48,7 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 0.6,
+   "seconds": 0.8,
    "peak_mem_mb": 0,
    "context_cap": 2048,
    "n_forecast_rows": 570,
@@ -75,8 +75,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 2.1,
-   "peak_mem_mb": 231,
+   "seconds": 4.8,
+   "peak_mem_mb": 238,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -89,13 +89,13 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 11.9,
-   "peak_mem_mb": 904,
+   "seconds": 24.0,
+   "peak_mem_mb": 906,
    "context_cap": 2048,
    "n_forecast_rows": 5025,
    "nan_forecasts": 0,
    "skipped": []
   }
  },
- "total_seconds": 17.5
+ "total_seconds": 33.2
 }

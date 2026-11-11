@@ -2,7 +2,7 @@
  "model": "lag-llama",
  "name": "Lag-Llama",
  "checkpoint": "time-series-foundation-models/Lag-Llama",
- "load_seconds": 4.2,
+ "load_seconds": 12.0,
  "parameters": 2449299,
  "datasets": {
   "D1": {
@@ -12,8 +12,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 428.4,
-   "peak_mem_mb": 545,
+   "seconds": 675.8,
+   "peak_mem_mb": 538,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -48,8 +48,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 133.0,
-   "peak_mem_mb": 579,
+   "seconds": 234.9,
+   "peak_mem_mb": 578,
    "context_cap": null,
    "n_forecast_rows": 570,
    "nan_forecasts": 0,
@@ -75,8 +75,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 1228.3,
-   "peak_mem_mb": 539,
+   "seconds": 847.8,
+   "peak_mem_mb": 540,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -89,13 +89,13 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 5815.9,
-   "peak_mem_mb": 2501,
+   "seconds": 4151.2,
+   "peak_mem_mb": 2523,
    "context_cap": 2048,
    "n_forecast_rows": 5025,
    "nan_forecasts": 0,
    "skipped": []
   }
  },
- "total_seconds": 7605.6
+ "total_seconds": 5909.7
 }

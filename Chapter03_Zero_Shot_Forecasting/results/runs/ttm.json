@@ -12,8 +12,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 6.2,
-   "peak_mem_mb": 307,
+   "seconds": 5.3,
+   "peak_mem_mb": 210,
    "context_cap": 512,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -48,7 +48,7 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 1.9,
+   "seconds": 1.3,
    "peak_mem_mb": 3,
    "context_cap": 512,
    "n_forecast_rows": 570,
@@ -75,8 +75,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 5.9,
-   "peak_mem_mb": 227,
+   "seconds": 4.1,
+   "peak_mem_mb": 213,
    "context_cap": 512,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -89,13 +89,13 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 1.4,
-   "peak_mem_mb": 3,
+   "seconds": 0.8,
+   "peak_mem_mb": 2,
    "context_cap": 512,
    "n_forecast_rows": 5025,
    "nan_forecasts": 0,
    "skipped": []
   }
  },
- "total_seconds": 15.4
+ "total_seconds": 11.5
 }

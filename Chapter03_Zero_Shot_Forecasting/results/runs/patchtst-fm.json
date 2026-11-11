@@ -2,7 +2,7 @@
  "model": "patchtst-fm",
  "name": "PatchTST-FM-r2",
  "checkpoint": "ibm-granite/granite-timeseries-patchtst-fm-r2",
- "load_seconds": 0.8,
+ "load_seconds": 0.7,
  "parameters": 384600192,
  "datasets": {
   "D1": {
@@ -12,8 +12,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 21.6,
-   "peak_mem_mb": 1577,
+   "seconds": 49.7,
+   "peak_mem_mb": 1203,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -48,8 +48,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 17.9,
-   "peak_mem_mb": 108,
+   "seconds": 41.2,
+   "peak_mem_mb": 106,
    "context_cap": 8192,
    "n_forecast_rows": 570,
    "nan_forecasts": 0,
@@ -75,8 +75,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 22.4,
-   "peak_mem_mb": 1511,
+   "seconds": 37.6,
+   "peak_mem_mb": 1573,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -89,13 +89,13 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 108.3,
-   "peak_mem_mb": 710,
+   "seconds": 195.6,
+   "peak_mem_mb": 605,
    "context_cap": 2048,
    "n_forecast_rows": 5025,
    "nan_forecasts": 0,
    "skipped": []
   }
  },
- "total_seconds": 170.2
+ "total_seconds": 324.1
 }

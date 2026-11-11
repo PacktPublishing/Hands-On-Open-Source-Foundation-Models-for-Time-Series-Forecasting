@@ -8,15 +8,15 @@
    "known_future": [],
    "past_only": [],
    "joint": false,
-   "tuning_seconds": 96.5,
-   "train_seconds": 19.7,
+   "tuning_seconds": 105.9,
+   "train_seconds": 22.4,
    "hyperparameters": {
     "num_leaves": 31,
     "learning_rate": 0.05
    },
    "device": "cpu",
    "status": "ok",
-   "seconds": 117.5,
+   "seconds": 129.3,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0
   },
@@ -39,15 +39,15 @@
     "ao"
    ],
    "joint": false,
-   "tuning_seconds": 291.5,
-   "train_seconds": 65.2,
+   "tuning_seconds": 314.5,
+   "train_seconds": 60.9,
    "hyperparameters": {
     "num_leaves": 31,
     "learning_rate": 0.1
    },
    "device": "cpu",
    "status": "ok",
-   "seconds": 358.4,
+   "seconds": 376.3,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0
   },
@@ -56,15 +56,15 @@
    "known_future": [],
    "past_only": [],
    "joint": true,
-   "tuning_seconds": 41.7,
-   "train_seconds": 11.4,
+   "tuning_seconds": 34.5,
+   "train_seconds": 10.3,
    "hyperparameters": {
     "num_leaves": 31,
     "learning_rate": 0.2
    },
    "device": "cpu",
    "status": "ok",
-   "seconds": 54.3,
+   "seconds": 45.3,
    "n_forecast_rows": 570,
    "nan_forecasts": 0
   },
@@ -77,15 +77,15 @@
     "real_rate_10y"
    ],
    "joint": true,
-   "tuning_seconds": 48.3,
-   "train_seconds": 13.8,
+   "tuning_seconds": 44.3,
+   "train_seconds": 13.2,
    "hyperparameters": {
     "num_leaves": 31,
     "learning_rate": 0.2
    },
    "device": "cpu",
    "status": "ok",
-   "seconds": 63.3,
+   "seconds": 58.0,
    "n_forecast_rows": 570,
    "nan_forecasts": 0
   },
@@ -94,15 +94,15 @@
    "known_future": [],
    "past_only": [],
    "joint": false,
-   "tuning_seconds": 125.4,
-   "train_seconds": 10.8,
+   "tuning_seconds": 44.2,
+   "train_seconds": 9.3,
    "hyperparameters": {
     "num_leaves": 31,
     "learning_rate": 0.2
    },
    "device": "cpu",
    "status": "ok",
-   "seconds": 138.1,
+   "seconds": 54.3,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0
   },
@@ -111,18 +111,18 @@
    "known_future": [],
    "past_only": [],
    "joint": true,
-   "tuning_seconds": 411.6,
-   "train_seconds": 99.3,
+   "tuning_seconds": 316.2,
+   "train_seconds": 72.0,
    "hyperparameters": {
     "num_leaves": 31,
     "learning_rate": 0.05
    },
    "device": "cpu",
    "status": "ok",
-   "seconds": 518.0,
+   "seconds": 393.1,
    "n_forecast_rows": 5025,
    "nan_forecasts": 0
   }
  },
- "total_seconds": 1249.6
+ "total_seconds": 1056.3
 }

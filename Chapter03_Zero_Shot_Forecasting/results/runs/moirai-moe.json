@@ -2,7 +2,7 @@
  "model": "moirai-moe",
  "name": "Moirai-MoE",
  "checkpoint": "Salesforce/moirai-moe-1.0-R-small",
- "load_seconds": 1.3,
+ "load_seconds": 1.1,
  "parameters": 117025800,
  "datasets": {
   "D1": {
@@ -12,8 +12,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 279.0,
-   "peak_mem_mb": 1649,
+   "seconds": 307.9,
+   "peak_mem_mb": 1712,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -46,8 +46,8 @@
     "CPU: 13 variates, context shortened from 2048 to 768 steps (token cap 640)"
    ],
    "status": "ok",
-   "seconds": 1519.1,
-   "peak_mem_mb": 2647,
+   "seconds": 2066.0,
+   "peak_mem_mb": 2667,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -60,8 +60,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 6.4,
-   "peak_mem_mb": 545,
+   "seconds": 7.6,
+   "peak_mem_mb": 555,
    "context_cap": 2048,
    "n_forecast_rows": 570,
    "nan_forecasts": 0,
@@ -78,8 +78,8 @@
    ],
    "dropped": [],
    "status": "ok",
-   "seconds": 11.4,
-   "peak_mem_mb": 816,
+   "seconds": 17.4,
+   "peak_mem_mb": 827,
    "context_cap": 2048,
    "n_forecast_rows": 570,
    "nan_forecasts": 0,
@@ -92,8 +92,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 193.6,
-   "peak_mem_mb": 1676,
+   "seconds": 308.6,
+   "peak_mem_mb": 1713,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -112,13 +112,13 @@
     "CPU: 5 variates, context shortened from 2048 to 2032 steps (token cap 640)"
    ],
    "status": "ok",
-   "seconds": 1458.2,
-   "peak_mem_mb": 2911,
+   "seconds": 2283.6,
+   "peak_mem_mb": 2929,
    "context_cap": 2048,
    "n_forecast_rows": 5025,
    "nan_forecasts": 0,
    "skipped": []
   }
  },
- "total_seconds": 3467.7
+ "total_seconds": 4991.1
 }

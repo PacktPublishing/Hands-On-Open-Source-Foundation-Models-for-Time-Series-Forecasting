@@ -26,7 +26,7 @@
     "lr": 0.001
    },
    "val_MASE": 5.1362,
-   "seconds": 4.0,
+   "seconds": 1.9,
    "device": "cpu"
   },
   {
@@ -36,7 +36,7 @@
     "lr": 0.0003
    },
    "val_MASE": 8.577,
-   "seconds": 4.1,
+   "seconds": 1.9,
    "device": "cpu"
   },
   {
@@ -46,7 +46,7 @@
     "lr": 0.003
    },
    "val_MASE": 4.7152,
-   "seconds": 3.9,
+   "seconds": 1.8,
    "device": "cpu"
   }
  ],

@@ -2,7 +2,7 @@
  "model": "toto2",
  "name": "Toto-2.0",
  "checkpoint": "Datadog/Toto-2.0-22m",
- "load_seconds": 5.9,
+ "load_seconds": 2.1,
  "parameters": 21915584,
  "datasets": {
   "D1": {
@@ -12,8 +12,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 0.9,
-   "peak_mem_mb": 31,
+   "seconds": 0.7,
+   "peak_mem_mb": 35,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -48,8 +48,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 0.6,
-   "peak_mem_mb": 8,
+   "seconds": 0.5,
+   "peak_mem_mb": 0,
    "context_cap": 4096,
    "n_forecast_rows": 570,
    "nan_forecasts": 0,
@@ -75,8 +75,8 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 0.8,
-   "peak_mem_mb": 33,
+   "seconds": 0.7,
+   "peak_mem_mb": 22,
    "context_cap": 2048,
    "n_forecast_rows": 1005,
    "nan_forecasts": 0,
@@ -89,13 +89,13 @@
    "past_only": [],
    "dropped": [],
    "status": "ok",
-   "seconds": 3.0,
-   "peak_mem_mb": 89,
+   "seconds": 3.1,
+   "peak_mem_mb": 85,
    "context_cap": 2048,
    "n_forecast_rows": 5025,
    "nan_forecasts": 0,
    "skipped": []
   }
  },
- "total_seconds": 5.3
+ "total_seconds": 5.0
 }
