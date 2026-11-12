@@ -74,7 +74,7 @@ rotary-embedding-torch==0.8.6
 rpds-py==2026.9.1
 safetensors==0.8.0
 scipy==1.15.3
-setuptools==81.0.0
+setuptools==84.1.0
 stack-data==0.6.3
 sympy==1.14.0
 toolz==0.12.1

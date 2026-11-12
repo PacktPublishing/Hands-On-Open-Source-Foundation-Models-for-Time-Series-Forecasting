@@ -95,7 +95,7 @@ requests==2.34.2
 rpds-py==2026.9.1
 safetensors==0.8.0
 scipy==1.11.4
-setuptools==84.2.1
+setuptools==84.1.0
 stack-data==0.6.3
 sympy==1.14.0
 tensorboard==2.21.0
