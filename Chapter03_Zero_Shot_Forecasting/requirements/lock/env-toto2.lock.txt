@@ -82,7 +82,7 @@ stack-data==0.6.3
 sympy==1.14.0
 tabulate==0.10.0
 toolz==0.12.1
-torch==2.11.0+cpu
+torch==2.13.0
 torchmetrics==1.9.0
 tornado==6.6
 toto-2==2.0.0
