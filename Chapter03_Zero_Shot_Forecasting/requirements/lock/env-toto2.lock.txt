@@ -18,7 +18,7 @@ fastjsonschema==2.22.3
 filelock==4.2.7
 fonttools==4.68.0
 frozenlist==1.8.0
-fsspec==2026.9.0
+fsspec==2026.6.0
 gluonts==0.17.0
 h11==0.16.0
 hf-xet==1.8.0
