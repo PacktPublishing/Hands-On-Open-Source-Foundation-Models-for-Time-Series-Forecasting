@@ -5,7 +5,7 @@
 # On torch >= 2.6 the adapter sets TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD=1 to unpickle the checkpoint.
 torch==2.11.0
 gluonts[torch]==0.14.4
-lightning==2.1.4
+lightning==2.6.6
 pytorch-lightning==2.1.4
 numpy==1.26.4
 pandas==2.1.4

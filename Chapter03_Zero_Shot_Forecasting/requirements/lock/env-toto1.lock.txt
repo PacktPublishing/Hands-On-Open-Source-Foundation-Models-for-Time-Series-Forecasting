@@ -33,7 +33,7 @@ jsonschema-specifications==2025.9.1
 jupyter-client==8.10.0
 jupyter-core==5.9.1
 kiwisolver==1.5.1
-lightning==2.4.0
+lightning==2.6.6
 lightning-utilities==0.15.3
 markupsafe==3.0.4
 matplotlib==3.11.2
