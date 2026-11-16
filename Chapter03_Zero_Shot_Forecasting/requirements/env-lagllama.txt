@@ -6,7 +6,7 @@
 torch==2.11.0
 gluonts[torch]==0.14.4
 lightning==2.1.4
-pytorch-lightning==2.1.4
+pytorch-lightning==2.6.1
 numpy==1.26.4
 pandas==2.1.4
 scipy==1.15.3
