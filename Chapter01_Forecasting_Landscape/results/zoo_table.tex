@@ -1,0 +1,14 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Measured ETTh1 results over three fixed 96-hour windows (288 targets). MAE, CRPS and interval width are in $^\circ$C; sMAPE and coverage are percentages. Intervals use 128-sample quantiles, without calibration.}
+\label{tab:ch01-zoo-results}
+\begin{tabular}{lrrrrr}
+\toprule
+Model & MAE & sMAPE & CRPS & \shortstack{80\%\\coverage} & \shortstack{80\%\\width} \\
+\midrule
+AutoARIMA & 1.837 & 18.96 & 1.330 & 95.14 & 8.67 \\
+N-HiTS--Normal & 2.021 & 20.75 & 1.364 & 81.25 & 6.59 \\
+Chronos-T5-Small & 2.209 & 22.91 & 1.754 & 33.68 & 2.60 \\
+\bottomrule
+\end{tabular}
+\end{table}

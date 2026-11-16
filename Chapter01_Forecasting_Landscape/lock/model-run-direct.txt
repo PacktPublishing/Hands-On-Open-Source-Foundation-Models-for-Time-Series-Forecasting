@@ -1,0 +1,12 @@
+# Selected installed direct dependencies; not a full transitive lock file.
+# Install the CPU torch wheel separately as described in README.md.
+numpy==2.5.4
+pandas==2.3.3
+scipy==1.18.1
+matplotlib==3.10.8
+statsforecast==2.1.1
+neuralforecast==3.3.1
+chronos-forecasting==2.3.2
+transformers==4.57.6
+accelerate==1.15.0
+huggingface-hub==0.36.2

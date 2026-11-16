@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "model": "AutoARIMA",
+      "origin_index": 11520,
+      "sample_shape": [
+        128,
+        96
+      ],
+      "saved_targets_and_scores": "passed"
+    },
+    {
+      "model": "AutoARIMA",
+      "origin_index": 11616,
+      "sample_shape": [
+        128,
+        96
+      ],
+      "saved_targets_and_scores": "passed"
+    },
+    {
+      "model": "AutoARIMA",
+      "origin_index": 11712,
+      "sample_shape": [
+        128,
+        96
+      ],
+      "saved_targets_and_scores": "passed"
+    },
+    {
+      "model": "NHITS-Normal",
+      "origin_index": 11520,
+      "sample_shape": [
+        128,
+        96
+      ],
+      "saved_targets_and_scores": "passed"
+    },
+    {
+      "model": "NHITS-Normal",
+      "origin_index": 11616,
+      "sample_shape": [
+        128,
+        96
+      ],
+      "saved_targets_and_scores": "passed"
+    },
+    {
+      "model": "NHITS-Normal",
+      "origin_index": 11712,
+      "sample_shape": [
+        128,
+        96
+      ],
+      "saved_targets_and_scores": "passed"
+    },
+    {
+      "model": "Chronos-T5-Small",
+      "origin_index": 11520,
+      "sample_shape": [
+        128,
+        96
+      ],
+      "saved_targets_and_scores": "passed"
+    },
+    {
+      "model": "Chronos-T5-Small",
+      "origin_index": 11616,
+      "sample_shape": [
+        128,
+        96
+      ],
+      "saved_targets_and_scores": "passed"
+    },
+    {
+      "model": "Chronos-T5-Small",
+      "origin_index": 11712,
+      "sample_shape": [
+        128,
+        96
+      ],
+      "saved_targets_and_scores": "passed"
+    }
+  ]
+}

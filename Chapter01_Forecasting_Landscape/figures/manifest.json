@@ -1,0 +1,78 @@
+{
+  "seed": 41705,
+  "status": "executed successfully",
+  "provenance": "Original code-generated synthetic illustrations; no sample-book artwork or empirical model results.",
+  "command": "python chapter01/code/make_teaching_figures.py",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  },
+  "figures": {
+    "decomposition": {
+      "caption": "A synthetic additive series and its known generating components: y_t = m_t + s_t + r_t. These are specified components, not an estimated decomposition of ETTh1.",
+      "alt_text": "Four panels show a rising noisy series, its linear trend, a repeating daily sine wave, and zero-centered random noise.",
+      "parameters": {
+        "n": 240,
+        "trend": "18 + 0.035*t",
+        "seasonality": "2.5*sin(2*pi*t/24)",
+        "remainder": "iid Normal(0,0.65^2)"
+      },
+      "dimensions_inches": [
+        5.8,
+        3.4
+      ]
+    },
+    "stationarity": {
+      "caption": "Three synthetic processes separate stable dependence from nonstationarity. Panel (a) is initialized from its stationary distribution; the random walk has variance that grows with time; panel (c) changes variance halfway through. Appearance alone cannot establish stationarity.",
+      "alt_text": "Three time plots compare a stable autoregression oscillating around zero, a wandering random walk, and zero-mean noise that becomes much more variable halfway through.",
+      "parameters": {
+        "n": 240,
+        "phi": 0.7,
+        "ar_innovation_sd": 1,
+        "ar_initial_distribution": "Normal(0,1/(1-phi^2))",
+        "random_walk_innovation_sd": 1,
+        "variance_change_index": 120,
+        "sigma_before": 0.7,
+        "sigma_after": 2.4
+      },
+      "dimensions_inches": [
+        5.8,
+        3.75
+      ]
+    },
+    "uncertainty": {
+      "caption": "Exact marginal Gaussian prediction intervals for a synthetic random walk with known drift and innovation variance. One realized path cannot establish calibration, and pointwise 95% intervals do not imply 95% simultaneous path coverage.",
+      "alt_text": "A historical series ends at an origin, after which a dashed median rises with two widening shaded bands and one realized future path.",
+      "parameters": {
+        "history_length": 96,
+        "display_history_start": 48,
+        "horizon": 48,
+        "drift": 0.06,
+        "innovation_sd": 0.4,
+        "forecast_mean": "y_T + 0.06*h",
+        "forecast_sd": "0.4*sqrt(h)",
+        "interval_levels": [
+          80,
+          95
+        ]
+      },
+      "dimensions_inches": [
+        5.8,
+        2.6
+      ]
+    },
+    "learning_regimes": {
+      "caption": "Where statistical strength is shared: a local fit uses one series, a global fit learns across a panel, and a pretrained checkpoint can be reused with new context. The last row shows zero-shot inference; fine-tuning adds task-specific weight updates. These are learning regimes, not exclusive architecture classes.",
+      "alt_text": "Three rows compare one-series local fitting, shared training across many series, and broad-corpus pretraining followed by use of a reusable checkpoint on new context.",
+      "parameters": {
+        "type": "conceptual diagram",
+        "empirical_values": false
+      },
+      "dimensions_inches": [
+        5.8,
+        3.0
+      ]
+    }
+  }
+}

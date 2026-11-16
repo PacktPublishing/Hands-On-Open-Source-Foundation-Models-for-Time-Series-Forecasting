@@ -1,0 +1,15 @@
+Model card source: https://huggingface.co/amazon/chronos-t5-small/raw/a971ba21945c4f1796b17a91fe69214b5f4ad472/README.md
+Retrieved 2026-11-14
+---
+license: apache-2.0
+pipeline_tag: time-series-forecasting
+tags:
+- time series
+- forecasting
+- pretrained models
+- foundation models
+- time series foundation models
+- time-series
+library_name: chronos-forecasting
+new_version: amazon/chronos-2
+---

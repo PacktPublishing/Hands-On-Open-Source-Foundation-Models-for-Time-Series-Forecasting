@@ -1,0 +1,11 @@
+# Python 3.12: offline notebook, saved-results verification, figures, and tests.
+# Direct pins; lock/inspection-py312.txt records the resolved verification environment.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+matplotlib==3.10.8
+nbformat==5.10.4
+nbclient==0.10.2
+ipykernel==6.30.1
+pytest==8.4.2
+jupyterlab==4.4.10

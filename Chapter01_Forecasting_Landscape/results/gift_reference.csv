@@ -1,0 +1,5 @@
+model,configurations,source_overlap_flag,relative_MASE,relative_WQL
+Seasonal_Naive,97,No,1.0,1.0
+Auto_Arima,97,No,1.0736213310338552,0.911685303441701
+Chronos_small,97,Yes,0.8916720750475363,0.6629669739576554
+chronos_bolt_small,97,Yes,0.8221027373724831,0.5767067174566384

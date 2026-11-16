@@ -1,0 +1,61 @@
+{
+  "source_revision": "0b57dd6937eb9a69a3ae771f73ab36188bb33e47",
+  "source_commit_date": "2026-11-13T03:11:36Z",
+  "retrieved_utc_date": "2026-11-14",
+  "execution": "Published scores downloaded and re-aggregated; models not rerun",
+  "aggregation": "Geometric mean of per-configuration model/Seasonal_Naive ratios",
+  "configuration_count": 97,
+  "filter": "All 97 configurations in each frozen source CSV; no overlap filtering",
+  "wql_note": "Source mean_weighted_sum_quantile_loss; not the local ensemble CRPS",
+  "overlap_note": "Flags are upstream metadata, not independently proven exposure",
+  "sources": [
+    {
+      "model": "Seasonal_Naive",
+      "file": "Seasonal_Naive_all_results.csv",
+      "url": "https://raw.githubusercontent.com/SalesforceAIResearch/gift-eval/0b57dd6937eb9a69a3ae771f73ab36188bb33e47/results/Seasonal_Naive/all_results.csv",
+      "sha256": "d89f8247cf455a953cdfb961b1ddd8fe452bfd8e3131b641fcc54234b710d949"
+    },
+    {
+      "model": "Seasonal_Naive",
+      "file": "Seasonal_Naive_config.json",
+      "url": "https://raw.githubusercontent.com/SalesforceAIResearch/gift-eval/0b57dd6937eb9a69a3ae771f73ab36188bb33e47/results/Seasonal_Naive/config.json",
+      "sha256": "a5b086ffda10b12c23c9c390c9ac6958e27ca396daa1b8ae71c6293db8087834"
+    },
+    {
+      "model": "Auto_Arima",
+      "file": "Auto_Arima_all_results.csv",
+      "url": "https://raw.githubusercontent.com/SalesforceAIResearch/gift-eval/0b57dd6937eb9a69a3ae771f73ab36188bb33e47/results/Auto_Arima/all_results.csv",
+      "sha256": "e08845b070b6968c6de36ab442fd097d3bebf5ac94bbcc886227e52a0dd81af1"
+    },
+    {
+      "model": "Auto_Arima",
+      "file": "Auto_Arima_config.json",
+      "url": "https://raw.githubusercontent.com/SalesforceAIResearch/gift-eval/0b57dd6937eb9a69a3ae771f73ab36188bb33e47/results/Auto_Arima/config.json",
+      "sha256": "90bec15a28ab9b6b863d9dafb6031869ab47ead00a5da759ef68c998391f3255"
+    },
+    {
+      "model": "Chronos_small",
+      "file": "Chronos_small_all_results.csv",
+      "url": "https://raw.githubusercontent.com/SalesforceAIResearch/gift-eval/0b57dd6937eb9a69a3ae771f73ab36188bb33e47/results/Chronos_small/all_results.csv",
+      "sha256": "86c0116277052e71fd3eeb6e742593dab38af0755ee0b7ec0c52b31454275a70"
+    },
+    {
+      "model": "Chronos_small",
+      "file": "Chronos_small_config.json",
+      "url": "https://raw.githubusercontent.com/SalesforceAIResearch/gift-eval/0b57dd6937eb9a69a3ae771f73ab36188bb33e47/results/Chronos_small/config.json",
+      "sha256": "b11504400f5679959a422cad7cc594a481f8bf39eb7cddabd1e72ba4110a48cd"
+    },
+    {
+      "model": "chronos_bolt_small",
+      "file": "chronos_bolt_small_all_results.csv",
+      "url": "https://raw.githubusercontent.com/SalesforceAIResearch/gift-eval/0b57dd6937eb9a69a3ae771f73ab36188bb33e47/results/chronos_bolt_small/all_results.csv",
+      "sha256": "5f6a598f627d5f0b94a67140c6d7cf981cad48bb3fc876271f9f0ca4af5a7fe2"
+    },
+    {
+      "model": "chronos_bolt_small",
+      "file": "chronos_bolt_small_config.json",
+      "url": "https://raw.githubusercontent.com/SalesforceAIResearch/gift-eval/0b57dd6937eb9a69a3ae771f73ab36188bb33e47/results/chronos_bolt_small/config.json",
+      "sha256": "86f6dc30d7d59f5b0b4739306c5694a4d5aabfbd5db7f3014b63b7e3ecd72a98"
+    }
+  ]
+}
