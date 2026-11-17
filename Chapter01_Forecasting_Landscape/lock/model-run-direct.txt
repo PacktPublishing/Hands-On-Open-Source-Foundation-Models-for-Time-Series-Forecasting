@@ -7,6 +7,6 @@ matplotlib==3.10.8
 statsforecast==2.1.1
 neuralforecast==3.3.1
 chronos-forecasting==2.3.2
-transformers==4.57.6
+transformers==5.10.1
 accelerate==1.15.0
 huggingface-hub==0.36.2
